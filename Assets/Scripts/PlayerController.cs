@@ -20,6 +20,7 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D body;
     private CapsuleCollider2D capsule;
     private SpriteRenderer spriteRenderer;
+    private SpriteRenderer[] visualRenderers;
 
     private LayerMask groundMask;
     private LayerMask burstMask;
@@ -44,13 +45,15 @@ public class PlayerController : MonoBehaviour
     private Vector3 spawnPoint;
     private Collider2D currentGroundCollider;
     private int attackVariant;
+    private int attackSequence;
     private int currentHealth;
 
     private const float MoveSpeed = 8.45f;
     private const float GroundAcceleration = 58f;
     private const float GroundDeceleration = 66f;
-    private const float AirAcceleration = 36f;
-    private const float AirDeceleration = 20f;
+    private const float AirAcceleration = 62f;
+    private const float AirDeceleration = 44f;
+    private const float AirTurnAcceleration = 88f;
     private const float JumpForce = 15.4f;
     private const float FallMultiplier = 3.1f;
     private const float LowJumpMultiplier = 2.2f;
@@ -87,6 +90,7 @@ public class PlayerController : MonoBehaviour
     public Vector2 Velocity => body != null ? body.linearVelocity : Vector2.zero;
     public float MoveAxis => moveInput;
     public int AttackVariant => attackVariant;
+    public int AttackSequence => attackSequence;
 
     public void Configure(InputActionAsset actionsAsset, LayerMask groundLayerMask, LayerMask burstLayerMask, GameStateController controller, Vector3 initialSpawnPoint)
     {
@@ -109,6 +113,18 @@ public class PlayerController : MonoBehaviour
         if (locked)
         {
             body.linearVelocity = new Vector2(0f, body.linearVelocity.y);
+        }
+    }
+
+    public void SetVisualHidden(bool hidden)
+    {
+        visualRenderers ??= GetComponentsInChildren<SpriteRenderer>(true);
+        foreach (SpriteRenderer renderer in visualRenderers)
+        {
+            if (renderer != null)
+            {
+                renderer.enabled = !hidden;
+            }
         }
     }
 
@@ -173,6 +189,7 @@ public class PlayerController : MonoBehaviour
         body = GetComponent<Rigidbody2D>();
         capsule = GetComponent<CapsuleCollider2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        visualRenderers = GetComponentsInChildren<SpriteRenderer>(true);
 
         body.gravityScale = 3f;
         body.freezeRotation = true;
@@ -299,9 +316,19 @@ public class PlayerController : MonoBehaviour
     private void FixedUpdate()
     {
         float targetVelocity = inputLocked ? 0f : moveInput * MoveSpeed;
+        bool reversingInAir =
+            !isGrounded &&
+            Mathf.Abs(targetVelocity) > 0.01f &&
+            Mathf.Abs(body.linearVelocity.x) > 0.01f &&
+            Mathf.Sign(targetVelocity) != Mathf.Sign(body.linearVelocity.x);
+
         float acceleration = Mathf.Abs(targetVelocity) > 0.01f
             ? (isGrounded ? GroundAcceleration : AirAcceleration)
             : (isGrounded ? GroundDeceleration : AirDeceleration);
+        if (reversingInAir)
+        {
+            acceleration = AirTurnAcceleration;
+        }
 
         float horizontalVelocity = Mathf.MoveTowards(body.linearVelocity.x, targetVelocity, acceleration * Time.fixedDeltaTime);
         body.linearVelocity = new Vector2(horizontalVelocity, body.linearVelocity.y);
@@ -411,8 +438,9 @@ public class PlayerController : MonoBehaviour
         }
 
         nextAttackTime = Time.time + AttackCooldown;
-        attackPoseUntil = Time.time + 0.18f;
+        attackPoseUntil = Time.time + 0.42f;
         attackVariant = (attackVariant + 1) % 2;
+        attackSequence++;
 
         float direction = facingRight ? 1f : -1f;
         float burstVerticalLift = isGrounded ? AttackLift : 0f;

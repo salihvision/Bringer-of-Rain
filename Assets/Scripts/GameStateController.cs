@@ -3,6 +3,14 @@ using UnityEngine;
 
 public class GameStateController : MonoBehaviour
 {
+    private enum StoryPhase
+    {
+        ChapterOne,
+        Transitioning,
+        ChapterTwo,
+        Finished
+    }
+
     private readonly List<GameObject> restoreObjects = new();
     private static readonly Color UiTextColor = new(0.09f, 0.11f, 0.13f, 1f);
     private const string DefaultHintText = "Move A/D or Arrows   Jump Space   Burst F / Mouse 1 / Enter   Follow the cracked spillway right";
@@ -19,14 +27,17 @@ public class GameStateController : MonoBehaviour
     private GUIStyle panelStyle;
 
     private Vector3 checkpointPosition;
+    private Vector3 chapterTwoSpawnPoint;
     private GameObject gateBarrier;
+    private GameObject chapterTwoRoot;
     private int totalValves;
     private int activatedValves;
     private float centerMessageExpiresAt;
+    private float transitionTeleportAt;
 
     private bool introVisible;
-    private bool endingVisible;
     private bool showCenterMessage;
+    private StoryPhase storyPhase;
 
     public bool CanExit { get; private set; }
 
@@ -34,6 +45,7 @@ public class GameStateController : MonoBehaviour
     {
         totalValves = valveCount;
         checkpointPosition = initialCheckpoint;
+        storyPhase = StoryPhase.ChapterOne;
         BuildUi();
         UpdateObjective();
         ShowIntro();
@@ -50,6 +62,12 @@ public class GameStateController : MonoBehaviour
         gateBarrier = gateToDisable;
         restoreObjects.Clear();
         restoreObjects.AddRange(objectsToEnable);
+    }
+
+    public void ConfigureChapterTwo(GameObject chapterRootObject, Vector3 spawnPoint)
+    {
+        chapterTwoRoot = chapterRootObject;
+        chapterTwoSpawnPoint = spawnPoint;
     }
 
     public void UpdateHealth(int currentHealth, int maxHealth)
@@ -82,7 +100,7 @@ public class GameStateController : MonoBehaviour
 
     public void RespawnPlayer(PlayerController targetPlayer)
     {
-        if (endingVisible || targetPlayer == null)
+        if (targetPlayer == null)
         {
             return;
         }
@@ -95,7 +113,7 @@ public class GameStateController : MonoBehaviour
 
     public void NotifyPlayerActivity()
     {
-        if (introVisible)
+        if (introVisible || (showCenterMessage && storyPhase != StoryPhase.Finished))
         {
             HideCenterText();
         }
@@ -103,7 +121,7 @@ public class GameStateController : MonoBehaviour
 
     public void ShowStoryMessage(string message, float duration)
     {
-        if (endingVisible)
+        if (storyPhase == StoryPhase.Finished)
         {
             return;
         }
@@ -119,28 +137,55 @@ public class GameStateController : MonoBehaviour
         ShowStoryMessage(message, duration);
     }
 
-    public void CompleteGame()
+    public void ReachReservoirGate()
     {
-        if (endingVisible)
+        if (!CanExit)
+        {
+            ShowTransientMessage("Restore the twin valves to awaken the reservoir gate.", 2.6f);
+            return;
+        }
+
+        if (storyPhase != StoryPhase.ChapterOne)
         {
             return;
         }
 
-        endingVisible = true;
+        BeginChapterTwoTransition();
+    }
+
+    public void CompleteGame()
+    {
+        if (storyPhase == StoryPhase.Finished)
+        {
+            return;
+        }
+
+        storyPhase = StoryPhase.Finished;
         showCenterMessage = true;
         centerMessage =
-            "THE WATER FLOWS AGAIN\n\n" +
-            "You broke the hoarders' decree.\n" +
-            "Justice returned to the dry stone,\n" +
-            "and fate remembered the last tide-bearer.";
-        objectiveText = "Objective: Complete";
-        hintText = "MVP complete. Press Play again to retry the slice.";
-        player?.SetInputLocked(true);
+            "CHAPTER II SECURED\n\n" +
+            "The drowned vault yields.\n" +
+            "Its wardens break under the tide-bearer's reach,\n" +
+            "and a harsher road opens beyond.\n\n" +
+            "Prototype arc complete.";
+        objectiveText = "Objective: Prototype Complete";
+        hintText = "Prototype arc complete. Press Play again to restart from Chapter I.";
+        player?.SetInputLocked(false);
+        player?.SetVisualHidden(false);
     }
 
     private void Update()
     {
-        if (!endingVisible && showCenterMessage && !introVisible && Time.unscaledTime >= centerMessageExpiresAt)
+        if (storyPhase == StoryPhase.Transitioning && Time.unscaledTime >= transitionTeleportAt)
+        {
+            EnterChapterTwo();
+        }
+
+        if (storyPhase != StoryPhase.Finished &&
+            storyPhase != StoryPhase.Transitioning &&
+            showCenterMessage &&
+            !introVisible &&
+            Time.unscaledTime >= centerMessageExpiresAt)
         {
             HideCenterText();
         }
@@ -150,17 +195,17 @@ public class GameStateController : MonoBehaviour
     {
         EnsureStyles();
 
-        GUI.Box(new Rect(12f, 12f, 285f, 86f), GUIContent.none, panelStyle);
+        GUI.Box(new Rect(12f, 12f, 325f, 86f), GUIContent.none, panelStyle);
         GUI.Label(new Rect(24f, 20f, 250f, 28f), healthText, hudStyle);
-        GUI.Label(new Rect(24f, 48f, 640f, 44f), objectiveText, hudStyle);
+        GUI.Label(new Rect(24f, 48f, 720f, 44f), objectiveText, hudStyle);
 
-        GUI.Box(new Rect(12f, Screen.height - 56f, 500f, 40f), GUIContent.none, panelStyle);
-        GUI.Label(new Rect(24f, Screen.height - 49f, 470f, 28f), hintText, hintStyle);
+        GUI.Box(new Rect(12f, Screen.height - 56f, 560f, 40f), GUIContent.none, panelStyle);
+        GUI.Label(new Rect(24f, Screen.height - 49f, 520f, 28f), hintText, hintStyle);
 
         if (showCenterMessage)
         {
-            float width = Mathf.Min(760f, Screen.width - 80f);
-            float height = Mathf.Min(240f, Screen.height - 120f);
+            float width = Mathf.Min(780f, Screen.width - 80f);
+            float height = Mathf.Min(260f, Screen.height - 120f);
             Rect panelRect = new((Screen.width - width) * 0.5f, (Screen.height - height) * 0.5f, width, height);
             GUI.Box(panelRect, GUIContent.none, panelStyle);
             GUI.Label(new Rect(panelRect.x + 24f, panelRect.y + 24f, panelRect.width - 48f, panelRect.height - 48f), centerMessage, centerStyle);
@@ -204,6 +249,64 @@ public class GameStateController : MonoBehaviour
         ShowStoryMessage("Water answers the just. Return to the upper aqueduct.", 4f);
     }
 
+    private void BeginChapterTwoTransition()
+    {
+        storyPhase = StoryPhase.Transitioning;
+        introVisible = false;
+        showCenterMessage = true;
+        centerMessage =
+            "CHAPTER II\n\n" +
+            "FLOODED VAULT\n\n" +
+            "The reservoir gate gives way.\n" +
+            "Stronger drowned wardens wait in the cistern below.";
+        objectiveText = "Objective: Enter the flooded vault.";
+        hintText = "Transitioning to Chapter II...";
+        transitionTeleportAt = Time.unscaledTime + 0.55f;
+
+        if (player != null)
+        {
+            TransitionStripAnimator.Spawn("Transitions/Desappearing96", player.transform.position + new Vector3(0f, 0.22f, -1f), 1.45f, 0.055f, 35);
+            player.SetInputLocked(true);
+            player.SetVisualHidden(true);
+        }
+    }
+
+    private void EnterChapterTwo()
+    {
+        if (storyPhase != StoryPhase.Transitioning)
+        {
+            return;
+        }
+
+        if (chapterTwoRoot != null)
+        {
+            chapterTwoRoot.SetActive(true);
+        }
+
+        checkpointPosition = chapterTwoSpawnPoint;
+
+        if (player != null)
+        {
+            player.SetSpawnPoint(chapterTwoSpawnPoint);
+            player.TeleportToSpawn();
+            player.RestoreFullHealth();
+            player.SetVisualHidden(false);
+            player.SetInputLocked(false);
+            TransitionStripAnimator.Spawn("Transitions/Appearing96", chapterTwoSpawnPoint + new Vector3(0f, 0.24f, -1f), 1.45f, 0.055f, 35);
+        }
+
+        storyPhase = StoryPhase.ChapterTwo;
+        centerMessage =
+            "CHAPTER II\n\n" +
+            "FLOODED VAULT\n\n" +
+            "The drowned wardens hit harder.\n" +
+            "Break their line and seize the tidal seal.";
+        showCenterMessage = true;
+        centerMessageExpiresAt = Time.unscaledTime + 3.8f;
+        hintText = "Chapter II: harder enemies deal more damage. Use air control and the long whip.";
+        UpdateObjective();
+    }
+
     private void BuildUi()
     {
         healthText = "HP 3/3";
@@ -215,7 +318,15 @@ public class GameStateController : MonoBehaviour
 
     private void UpdateObjective()
     {
-        if (CanExit)
+        if (storyPhase == StoryPhase.ChapterTwo)
+        {
+            objectiveText = "Objective: Survive the flooded vault and reach the tidal seal.";
+        }
+        else if (storyPhase == StoryPhase.Finished)
+        {
+            objectiveText = "Objective: Prototype Complete";
+        }
+        else if (CanExit)
         {
             objectiveText = "Objective: Return to the upper aqueduct and reach the reservoir gate.";
         }
@@ -239,11 +350,6 @@ public class GameStateController : MonoBehaviour
 
     private void HideCenterText()
     {
-        if (endingVisible)
-        {
-            return;
-        }
-
         introVisible = false;
         showCenterMessage = false;
         centerMessage = string.Empty;

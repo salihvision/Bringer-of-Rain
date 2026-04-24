@@ -21,6 +21,7 @@ public class DesertAqueductBootstrap : MonoBehaviour
     private readonly List<GameObject> unlockOnRestore = new();
 
     private Transform worldRoot;
+    private GameObject chapterTwoRoot;
     private GameStateController gameState;
 
     private void Awake()
@@ -43,6 +44,7 @@ public class DesertAqueductBootstrap : MonoBehaviour
 
         BuildBackdrop();
         BuildLevelGeometry();
+        BuildChapterTwoGeometry();
 
         PlayerController player = BuildPlayer(spawnPoint);
         BuildCamera(player.transform);
@@ -176,9 +178,57 @@ public class DesertAqueductBootstrap : MonoBehaviour
             "The cracked spillway is the only open path into the pumps below.",
             new Vector2(3.4f, 3f));
 
-        CreateExit(new Vector2(45f, 1.8f), new Vector2(2.2f, 4f));
+        CreateExit("ReservoirGate", new Vector2(45f, 1.8f), new Vector2(2.2f, 4f), ExitTrigger.ExitMode.AdvanceChapter);
 
         gameState.ConfigureProgression(gateBarrier, unlockOnRestore);
+    }
+
+    private void BuildChapterTwoGeometry()
+    {
+        Transform previousRoot = worldRoot;
+        chapterTwoRoot = new GameObject("ChapterTwoWorld");
+        chapterTwoRoot.transform.SetParent(previousRoot, false);
+        worldRoot = chapterTwoRoot.transform;
+
+        Vector3 chapterTwoSpawn = new(53.6f, -3.1f, 0f);
+        Color vaultStone = new(0.21f, 0.31f, 0.35f, 1f);
+        Color vaultWater = new(0.18f, 0.82f, 0.98f, 0.92f);
+        Color vaultMist = new(0.48f, 0.83f, 0.91f, 0.18f);
+
+        CreateVisual("VaultBackdrop", new Vector2(62.5f, -0.6f), new Vector2(24f, 10f), new Color(0.16f, 0.28f, 0.31f, 0.14f), false, -16);
+        CreateVisual("VaultMist", new Vector2(63.5f, 1.8f), new Vector2(20f, 2.6f), vaultMist, false, -15);
+        CreateSolid("VaultFloor", new Vector2(62.5f, -4.5f), new Vector2(22f, 1f), vaultStone);
+        CreateSolid("VaultRightBoundary", new Vector2(78.3f, -1.8f), new Vector2(1f, 12f), vaultStone);
+        CreateSolid("VaultColumnA", new Vector2(59.8f, -2.4f), new Vector2(1.1f, 4.2f), StoneColor);
+        CreateSolid("VaultColumnB", new Vector2(68.6f, -2.0f), new Vector2(1.1f, 5f), StoneColor);
+        CreateSolid("VaultSealPedestal", new Vector2(75.2f, -2.6f), new Vector2(3.8f, 3.8f), RustColor);
+
+        CreateOneWayPlatform("VaultStepA", new Vector2(56.8f, -1.5f), new Vector2(3.6f, 0.6f), vaultWater);
+        CreateOneWayPlatform("VaultStepB", new Vector2(61.9f, -0.2f), new Vector2(4.4f, 0.6f), vaultWater);
+        CreateOneWayPlatform("VaultStepC", new Vector2(66.4f, -2.3f), new Vector2(3.8f, 0.6f), vaultWater);
+        CreateOneWayPlatform("VaultStepD", new Vector2(71.2f, -0.9f), new Vector2(4.2f, 0.6f), vaultWater);
+
+        CreateHazard("VaultSpikesA", new Vector2(64.3f, -4.03f), new Vector2(2.4f, 0.7f), false);
+        CreateHazard("VaultSpikesB", new Vector2(72.2f, -4.03f), new Vector2(2.1f, 0.7f), false);
+
+        CreateEnemy("VaultHunterA", new Vector2(57f, -3.55f), 54.6f, 59.6f, 2.15f, "NinjaFrog", 1.35f);
+        CreateEnemy("VaultCrusherA", new Vector2(63.4f, -3.55f), 61.2f, 66.2f, 2.25f, "MaskDude", 1.55f);
+        CreateEnemy("VaultHunterB", new Vector2(69.2f, -1.35f), 67.2f, 72.6f, 2.4f, "NinjaFrog", 1.7f);
+        CreateEnemy("VaultCrusherB", new Vector2(74.2f, -3.55f), 71.7f, 76.5f, 2.5f, "MaskDude", 1.82f);
+
+        CreateCheckpoint(new Vector2(53.8f, -3.7f), chapterTwoSpawn);
+        CreateStorySign(
+            new Vector2(56.2f, -2.75f),
+            "VAULT",
+            "Flooded below.\nTeeth ahead.",
+            "Chapter II: the drowned vault. These wardens strike harder and dash faster.",
+            new Vector2(3.4f, 3f));
+
+        CreateExit("TidalSeal", new Vector2(76.2f, -0.85f), new Vector2(2.1f, 3.2f), ExitTrigger.ExitMode.FinalSeal);
+
+        worldRoot = previousRoot;
+        chapterTwoRoot.SetActive(false);
+        gameState.ConfigureChapterTwo(chapterTwoRoot, chapterTwoSpawn);
     }
 
     private PlayerController BuildPlayer(Vector3 spawnPoint)
@@ -221,7 +271,7 @@ public class DesertAqueductBootstrap : MonoBehaviour
             follow = camera.gameObject.AddComponent<SimpleCameraFollow>();
         }
 
-        follow.Configure(playerTarget, new Vector3(2.5f, 1f, -10f), 4.2f, new Vector2(-2f, 37f));
+        follow.Configure(playerTarget, new Vector3(2.5f, 1f, -10f), 4.2f, new Vector2(-2f, 71f));
     }
 
     private GameObject CreateSolid(string objectName, Vector2 position, Vector2 size, Color color)
@@ -287,7 +337,7 @@ public class DesertAqueductBootstrap : MonoBehaviour
         return visual;
     }
 
-    private void CreateEnemy(string objectName, Vector2 position, float minX, float maxX, float speed, string spriteSet)
+    private void CreateEnemy(string objectName, Vector2 position, float minX, float maxX, float speed, string spriteSet, float difficultyScale = 1f)
     {
         GameObject enemyObject = new(objectName);
         enemyObject.transform.SetParent(worldRoot, false);
@@ -299,7 +349,7 @@ public class DesertAqueductBootstrap : MonoBehaviour
         enemyObject.AddComponent<Rigidbody2D>();
 
         EnemyPatrol enemy = enemyObject.AddComponent<EnemyPatrol>();
-        enemy.Configure(minX, maxX, speed);
+        enemy.Configure(minX, maxX, speed, difficultyScale);
         EnemySpriteAnimator animator = enemyObject.AddComponent<EnemySpriteAnimator>();
         animator.Configure(spriteSet);
 
@@ -387,9 +437,9 @@ public class DesertAqueductBootstrap : MonoBehaviour
         storyTrigger.Configure(gameState, triggerText, 3.5f, true);
     }
 
-    private void CreateExit(Vector2 position, Vector2 triggerSize)
+    private void CreateExit(string objectName, Vector2 position, Vector2 triggerSize, ExitTrigger.ExitMode exitMode = ExitTrigger.ExitMode.AdvanceChapter)
     {
-        GameObject exitRoot = new("ReservoirGate");
+        GameObject exitRoot = new(objectName);
         exitRoot.transform.SetParent(worldRoot, false);
         exitRoot.transform.position = position;
         exitRoot.layer = WaterLayer;
@@ -404,7 +454,7 @@ public class DesertAqueductBootstrap : MonoBehaviour
         collider2D.size = triggerSize;
 
         ExitTrigger exitTrigger = exitRoot.AddComponent<ExitTrigger>();
-        exitTrigger.Configure(gameState);
+        exitTrigger.Configure(gameState, exitMode);
     }
 
     private TextMesh CreateWorldText(Transform parent, string content, Vector2 localPosition, float characterSize, TextAlignment alignment)

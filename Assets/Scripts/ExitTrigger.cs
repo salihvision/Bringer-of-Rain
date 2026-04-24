@@ -3,11 +3,19 @@ using UnityEngine;
 [RequireComponent(typeof(BoxCollider2D))]
 public class ExitTrigger : MonoBehaviour
 {
-    private GameStateController gameState;
+    public enum ExitMode
+    {
+        AdvanceChapter,
+        FinalSeal
+    }
 
-    public void Configure(GameStateController controller)
+    private GameStateController gameState;
+    private ExitMode exitMode;
+
+    public void Configure(GameStateController controller, ExitMode mode = ExitMode.AdvanceChapter)
     {
         gameState = controller;
+        exitMode = mode;
     }
 
     private void Awake()
@@ -23,13 +31,17 @@ public class ExitTrigger : MonoBehaviour
             return;
         }
 
-        if (gameState != null && gameState.CanExit)
+        if (gameState == null)
+        {
+            return;
+        }
+
+        if (exitMode == ExitMode.FinalSeal)
         {
             gameState.CompleteGame();
+            return;
         }
-        else
-        {
-            gameState?.ShowTransientMessage("Restore the twin valves to awaken the reservoir gate.", 2.6f);
-        }
+
+        gameState.ReachReservoirGate();
     }
 }

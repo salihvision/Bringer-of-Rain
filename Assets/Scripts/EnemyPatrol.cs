@@ -27,22 +27,22 @@ public class EnemyPatrol : MonoBehaviour, IWaterReactive
     private float stateEndsAt;
     private float nextDashAt;
     private float nextTouchTime;
+    private float chaseMultiplier;
+    private float dashSpeed;
+    private float windupDuration;
+    private float dashDuration;
+    private float recoverDuration;
+    private float dashCooldown;
 
     private int currentHealth;
+    private int maxHealth;
+    private int contactDamage;
     private EnemyState currentState;
 
-    private const int MaxHealth = 5;
-    private const int ContactDamage = 1;
     private const float ChaseRange = 6.8f;
     private const float AttackRange = 2.35f;
     private const float VerticalAwareness = 2f;
-    private const float ChaseMultiplier = 1.45f;
-    private const float DashSpeed = 9.2f;
-    private const float WindupDuration = 0.4f;
-    private const float DashDuration = 0.34f;
-    private const float RecoverDuration = 0.48f;
     private const float StunDuration = 0.3f;
-    private const float DashCooldown = 1.05f;
     private static readonly Color BaseColor = Color.white;
     private static readonly Color AlertColor = new(1f, 0.94f, 0.86f, 1f);
     private static readonly Color DashColor = new(1f, 0.74f, 0.74f, 1f);
@@ -54,11 +54,21 @@ public class EnemyPatrol : MonoBehaviour, IWaterReactive
     public bool IsStunned => currentState == EnemyState.Stunned;
     public bool IsAlert => currentState == EnemyState.Chase || currentState == EnemyState.Windup || currentState == EnemyState.Dash;
 
-    public void Configure(float minX, float maxX, float moveSpeed)
+    public void Configure(float minX, float maxX, float moveSpeed, float difficultyScale = 1f)
     {
         leftBound = Mathf.Min(minX, maxX);
         rightBound = Mathf.Max(minX, maxX);
         speed = moveSpeed;
+
+        float threatBlend = Mathf.InverseLerp(1f, 1.85f, Mathf.Max(1f, difficultyScale));
+        maxHealth = Mathf.RoundToInt(Mathf.Lerp(5f, 8f, threatBlend));
+        contactDamage = difficultyScale >= 1.45f ? 2 : 1;
+        chaseMultiplier = Mathf.Lerp(1.45f, 1.85f, threatBlend);
+        dashSpeed = Mathf.Lerp(9.2f, 12.4f, threatBlend);
+        windupDuration = Mathf.Lerp(0.4f, 0.22f, threatBlend);
+        dashDuration = Mathf.Lerp(0.34f, 0.42f, threatBlend);
+        recoverDuration = Mathf.Lerp(0.48f, 0.24f, threatBlend);
+        dashCooldown = Mathf.Lerp(1.05f, 0.62f, threatBlend);
     }
 
     public void ReactToWaterBurst(WaterBurstData burst)
@@ -104,7 +114,16 @@ public class EnemyPatrol : MonoBehaviour, IWaterReactive
         spriteRenderer.color = BaseColor;
         spriteRenderer.sortingOrder = 9;
 
-        currentHealth = MaxHealth;
+        maxHealth = 5;
+        contactDamage = 1;
+        chaseMultiplier = 1.45f;
+        dashSpeed = 9.2f;
+        windupDuration = 0.4f;
+        dashDuration = 0.34f;
+        recoverDuration = 0.48f;
+        dashCooldown = 1.05f;
+
+        currentHealth = maxHealth;
         currentState = EnemyState.Patrol;
     }
 
@@ -137,16 +156,16 @@ public class EnemyPatrol : MonoBehaviour, IWaterReactive
                 if (Time.time >= stateEndsAt)
                 {
                     currentState = EnemyState.Dash;
-                    stateEndsAt = Time.time + DashDuration;
+                    stateEndsAt = Time.time + dashDuration;
                 }
                 break;
 
             case EnemyState.Dash:
-                position.x += direction * DashSpeed * Time.deltaTime;
+                position.x += direction * dashSpeed * Time.deltaTime;
                 if (Time.time >= stateEndsAt)
                 {
                     currentState = EnemyState.Recover;
-                    stateEndsAt = Time.time + RecoverDuration;
+                    stateEndsAt = Time.time + recoverDuration;
                 }
                 break;
 
@@ -172,12 +191,12 @@ public class EnemyPatrol : MonoBehaviour, IWaterReactive
                     if (Mathf.Abs(deltaToPlayer) <= AttackRange && Time.time >= nextDashAt)
                     {
                         currentState = EnemyState.Windup;
-                        stateEndsAt = Time.time + WindupDuration;
-                        nextDashAt = Time.time + DashCooldown;
+                        stateEndsAt = Time.time + windupDuration;
+                        nextDashAt = Time.time + dashCooldown;
                     }
                     else
                     {
-                        position.x += direction * speed * ChaseMultiplier * Time.deltaTime;
+                        position.x += direction * speed * chaseMultiplier * Time.deltaTime;
                     }
                 }
                 else
@@ -194,7 +213,7 @@ public class EnemyPatrol : MonoBehaviour, IWaterReactive
             if (currentState == EnemyState.Dash)
             {
                 currentState = EnemyState.Recover;
-                stateEndsAt = Time.time + RecoverDuration;
+                stateEndsAt = Time.time + recoverDuration;
             }
         }
         else if (position.x >= rightBound)
@@ -204,7 +223,7 @@ public class EnemyPatrol : MonoBehaviour, IWaterReactive
             if (currentState == EnemyState.Dash)
             {
                 currentState = EnemyState.Recover;
-                stateEndsAt = Time.time + RecoverDuration;
+                stateEndsAt = Time.time + recoverDuration;
             }
         }
 
@@ -256,7 +275,7 @@ public class EnemyPatrol : MonoBehaviour, IWaterReactive
         if (other.TryGetComponent(out PlayerController hitPlayer))
         {
             nextTouchTime = Time.time + (currentState == EnemyState.Dash ? 0.5f : 0.8f);
-            hitPlayer.TakeDamage(ContactDamage, transform.position);
+            hitPlayer.TakeDamage(contactDamage, transform.position);
         }
     }
 }

@@ -39,22 +39,23 @@ public class CharacterSpriteAnimator : MonoBehaviour
 
     private static readonly Vector2Int[] AttackFrames =
     {
-        new(0, 4),
-        new(1, 4),
-        new(2, 4),
-        new(3, 4),
-        new(4, 4),
-        new(5, 4)
+        new(1, 8),
+        new(2, 8),
+        new(3, 8),
+        new(4, 8),
+        new(5, 8),
+        new(6, 8),
+        new(7, 8)
     };
 
     private static readonly Vector2Int[] AttackFramesAlt =
     {
-        new(0, 5),
-        new(1, 5),
-        new(2, 5),
-        new(3, 5),
-        new(4, 5),
-        new(5, 5)
+        new(1, 8),
+        new(3, 8),
+        new(4, 8),
+        new(5, 8),
+        new(6, 8),
+        new(7, 8)
     };
 
     private static readonly Vector2Int[] HurtFrames =
@@ -74,6 +75,7 @@ public class CharacterSpriteAnimator : MonoBehaviour
     private float frameTime;
     private float nextFrameAt;
     private int frameIndex;
+    private int lastAttackSequence = -1;
 
     private const string ResourcePath = "Character/AnimationSheet_Character";
     private const int CellSize = 32;
@@ -119,6 +121,11 @@ public class CharacterSpriteAnimator : MonoBehaviour
 
         AnimationState nextState = ResolveState();
         bool forceRestart = nextState != currentState;
+        if (nextState == AnimationState.Attack && player.AttackSequence != lastAttackSequence)
+        {
+            lastAttackSequence = player.AttackSequence;
+            forceRestart = true;
+        }
         SetAnimation(nextState, forceRestart);
 
         if (activeFrames == null || activeFrames.Length == 0)
@@ -176,7 +183,7 @@ public class CharacterSpriteAnimator : MonoBehaviour
         frameTime = nextState switch
         {
             AnimationState.Run => 0.08f,
-            AnimationState.Attack => 0.06f,
+            AnimationState.Attack => 0.045f,
             AnimationState.Hurt => 0.07f,
             AnimationState.Jump => 0.13f,
             AnimationState.Fall => 0.13f,
