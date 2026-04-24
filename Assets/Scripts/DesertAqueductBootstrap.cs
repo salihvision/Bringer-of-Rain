@@ -22,6 +22,7 @@ public class DesertAqueductBootstrap : MonoBehaviour
 
     private Transform worldRoot;
     private GameObject chapterTwoRoot;
+    private GameObject chapterThreeRoot;
     private GameStateController gameState;
 
     private void Awake()
@@ -45,6 +46,7 @@ public class DesertAqueductBootstrap : MonoBehaviour
         BuildBackdrop();
         BuildLevelGeometry();
         BuildChapterTwoGeometry();
+        BuildChapterThreeGeometry();
 
         PlayerController player = BuildPlayer(spawnPoint);
         BuildCamera(player.transform);
@@ -227,6 +229,73 @@ public class DesertAqueductBootstrap : MonoBehaviour
         worldRoot = previousRoot;
         chapterTwoRoot.SetActive(false);
         gameState.ConfigureChapterTwo(chapterTwoRoot, chapterTwoSpawn);
+    }
+
+    private void BuildChapterThreeGeometry()
+    {
+        Transform previousRoot = worldRoot;
+        chapterThreeRoot = new GameObject("ChapterThreeWorld");
+        chapterThreeRoot.transform.SetParent(previousRoot, false);
+        worldRoot = chapterThreeRoot.transform;
+
+        Vector3 chapterThreeSpawn = new(85.5f, -3.42f, 0f);
+        const float arenaCenterX = 94f;
+        const float arenaLeftBound = 83.5f;
+        const float arenaRightBound = 104.5f;
+        const float arenaFloorY = -4f;
+
+        Color courtBackdrop = new(0.12f, 0.07f, 0.16f, 1f);
+        Color courtFloor = new(0.18f, 0.13f, 0.22f, 1f);
+        Color courtPillar = new(0.34f, 0.18f, 0.36f, 1f);
+        Color courtMist = new(0.62f, 0.34f, 0.78f, 0.18f);
+        Color courtAccent = new(0.92f, 0.36f, 0.42f, 0.85f);
+
+        CreateVisual("CourtBackdrop", new Vector2(arenaCenterX, -0.6f), new Vector2(24f, 11f), courtBackdrop, false, -16);
+        CreateVisual("CourtMistA", new Vector2(arenaCenterX - 4f, 1.4f), new Vector2(14f, 2.4f), courtMist, false, -14);
+        CreateVisual("CourtMistB", new Vector2(arenaCenterX + 5f, 2.2f), new Vector2(12f, 1.8f), courtMist, false, -14);
+        CreateVisual("CourtAccent", new Vector2(arenaCenterX, 3.4f), new Vector2(20f, 0.18f), courtAccent, false, -12);
+
+        CreateSolid("CourtFloor", new Vector2(arenaCenterX, -4.5f), new Vector2(22f, 1f), courtFloor);
+        CreateSolid("CourtLeftWall", new Vector2(arenaLeftBound - 0.5f, -1f), new Vector2(1f, 9f), courtPillar);
+        CreateSolid("CourtRightWall", new Vector2(arenaRightBound + 0.5f, -1f), new Vector2(1f, 9f), courtPillar);
+        CreateSolid("CourtCeiling", new Vector2(arenaCenterX, 4.4f), new Vector2(22f, 0.6f), courtPillar);
+        CreateSolid("CourtPillarLeft", new Vector2(89.5f, -2.6f), new Vector2(0.7f, 2.6f), courtPillar);
+        CreateSolid("CourtPillarRight", new Vector2(98.5f, -2.6f), new Vector2(0.7f, 2.6f), courtPillar);
+
+        CreateHazard("CourtKillPlane", new Vector2(arenaCenterX, -18f), new Vector2(28f, 4f), true);
+
+        CreateCheckpoint(new Vector2(85.4f, -3.7f), chapterThreeSpawn);
+        CreateStorySign(
+            new Vector2(86.5f, -2.75f),
+            "WARDEN",
+            "Stun-immune.\nStrike on the slam.",
+            "The warden of the drowned vault. Strike only when its guard breaks.",
+            new Vector2(3.4f, 3f));
+
+        BuildBoss(new Vector2(arenaCenterX, -2f), arenaLeftBound, arenaRightBound, arenaFloorY);
+
+        worldRoot = previousRoot;
+        chapterThreeRoot.SetActive(false);
+        gameState.ConfigureChapterThree(chapterThreeRoot, chapterThreeSpawn, new Vector2(82f, 107f));
+    }
+
+    private void BuildBoss(Vector2 position, float leftBound, float rightBound, float groundY)
+    {
+        GameObject bossObject = new("DrownedWarden");
+        bossObject.transform.SetParent(worldRoot, false);
+        bossObject.transform.position = position;
+        bossObject.transform.localScale = new Vector3(2.2f, 2.4f, 1f);
+
+        bossObject.AddComponent<SpriteRenderer>();
+        bossObject.AddComponent<BoxCollider2D>();
+        bossObject.AddComponent<Rigidbody2D>();
+
+        BossController boss = bossObject.AddComponent<BossController>();
+        boss.Configure(gameState, worldRoot, leftBound, rightBound, groundY);
+
+        CreateChildVisual(bossObject.transform, "BossShadow", new Vector2(0f, -0.62f), new Vector2(0.92f, 0.16f), new Color(0.05f, 0.02f, 0.08f, 0.55f), 8);
+        CreateChildVisual(bossObject.transform, "BossCrest", new Vector2(0f, 0.42f), new Vector2(0.55f, 0.16f), new Color(1f, 0.84f, 0.32f, 0.95f), 12);
+        CreateChildVisual(bossObject.transform, "BossEye", new Vector2(0f, 0.08f), new Vector2(0.18f, 0.18f), new Color(1f, 0.42f, 0.32f, 0.95f), 13);
     }
 
     private PlayerController BuildPlayer(Vector3 spawnPoint)

@@ -8,6 +8,8 @@ public class GameStateController : MonoBehaviour
         ChapterOne,
         Transitioning,
         ChapterTwo,
+        TransitioningChapterThree,
+        ChapterThree,
         Finished
     }
 
@@ -28,8 +30,11 @@ public class GameStateController : MonoBehaviour
 
     private Vector3 checkpointPosition;
     private Vector3 chapterTwoSpawnPoint;
+    private Vector3 chapterThreeSpawnPoint;
+    private Vector2 chapterThreeCameraLimits;
     private GameObject gateBarrier;
     private GameObject chapterTwoRoot;
+    private GameObject chapterThreeRoot;
     private int totalValves;
     private int activatedValves;
     private float centerMessageExpiresAt;
@@ -68,6 +73,13 @@ public class GameStateController : MonoBehaviour
     {
         chapterTwoRoot = chapterRootObject;
         chapterTwoSpawnPoint = spawnPoint;
+    }
+
+    public void ConfigureChapterThree(GameObject chapterRootObject, Vector3 spawnPoint, Vector2 cameraLimits)
+    {
+        chapterThreeRoot = chapterRootObject;
+        chapterThreeSpawnPoint = spawnPoint;
+        chapterThreeCameraLimits = cameraLimits;
     }
 
     public void UpdateHealth(int currentHealth, int maxHealth)
@@ -153,6 +165,26 @@ public class GameStateController : MonoBehaviour
         BeginChapterTwoTransition();
     }
 
+    public void ReachTidalSeal()
+    {
+        if (storyPhase != StoryPhase.ChapterTwo)
+        {
+            return;
+        }
+
+        BeginChapterThreeTransition();
+    }
+
+    public void NotifyBossDefeated()
+    {
+        if (storyPhase != StoryPhase.ChapterThree)
+        {
+            return;
+        }
+
+        CompleteGame();
+    }
+
     public void CompleteGame()
     {
         if (storyPhase == StoryPhase.Finished)
@@ -163,10 +195,10 @@ public class GameStateController : MonoBehaviour
         storyPhase = StoryPhase.Finished;
         showCenterMessage = true;
         centerMessage =
-            "CHAPTER II SECURED\n\n" +
-            "The drowned vault yields.\n" +
-            "Its wardens break under the tide-bearer's reach,\n" +
-            "and a harsher road opens beyond.\n\n" +
+            "WARDEN BROKEN\n\n" +
+            "The drowned warden falls.\n" +
+            "Tide rushes free across the desert,\n" +
+            "and the sealed wells answer at last.\n\n" +
             "Prototype arc complete.";
         objectiveText = "Objective: Prototype Complete";
         hintText = "Prototype arc complete. Press Play again to restart from Chapter I.";
@@ -180,9 +212,14 @@ public class GameStateController : MonoBehaviour
         {
             EnterChapterTwo();
         }
+        else if (storyPhase == StoryPhase.TransitioningChapterThree && Time.unscaledTime >= transitionTeleportAt)
+        {
+            EnterChapterThree();
+        }
 
         if (storyPhase != StoryPhase.Finished &&
             storyPhase != StoryPhase.Transitioning &&
+            storyPhase != StoryPhase.TransitioningChapterThree &&
             showCenterMessage &&
             !introVisible &&
             Time.unscaledTime >= centerMessageExpiresAt)
@@ -309,6 +346,71 @@ public class GameStateController : MonoBehaviour
         UpdateObjective();
     }
 
+    private void BeginChapterThreeTransition()
+    {
+        storyPhase = StoryPhase.TransitioningChapterThree;
+        introVisible = false;
+        showCenterMessage = true;
+        centerMessage =
+            "CHAPTER III\n\n" +
+            "WARDEN'S COURT\n\n" +
+            "Past the tidal seal lies the warden of the drowned vault.\n" +
+            "Strike only when its guard breaks.";
+        objectiveText = "Objective: Break the warden of the drowned vault.";
+        hintText = "Approaching the warden's court...";
+        transitionTeleportAt = Time.unscaledTime + 0.55f;
+
+        if (player != null)
+        {
+            TransitionStripAnimator.Spawn("Transitions/Desappearing96", player.transform.position + new Vector3(0f, 0.22f, -1f), 1.45f, 0.055f, 35);
+            player.SetInputLocked(true);
+            player.SetVisualHidden(true);
+        }
+    }
+
+    private void EnterChapterThree()
+    {
+        if (storyPhase != StoryPhase.TransitioningChapterThree)
+        {
+            return;
+        }
+
+        if (chapterTwoRoot != null)
+        {
+            chapterTwoRoot.SetActive(false);
+        }
+
+        if (chapterThreeRoot != null)
+        {
+            chapterThreeRoot.SetActive(true);
+        }
+
+        SimpleCameraFollow.SetHorizontalLimits(chapterThreeCameraLimits);
+
+        checkpointPosition = chapterThreeSpawnPoint;
+
+        if (player != null)
+        {
+            player.SetSpawnPoint(chapterThreeSpawnPoint);
+            player.TeleportToSpawn();
+            player.RestoreFullHealth();
+            player.SetVisualHidden(false);
+            player.SetInputLocked(false);
+            TransitionStripAnimator.Spawn("Transitions/Appearing96", chapterThreeSpawnPoint + new Vector3(0f, 0.24f, -1f), 1.45f, 0.055f, 35);
+        }
+
+        storyPhase = StoryPhase.ChapterThree;
+        centerMessage =
+            "CHAPTER III\n\n" +
+            "WARDEN'S COURT\n\n" +
+            "It is stun-immune.\n" +
+            "It will only bleed when its slam exposes it.";
+        showCenterMessage = true;
+        centerMessageExpiresAt = Time.unscaledTime + 4.2f;
+        hintText = "Dodge the shockwaves. Strike during the warden's expose window. Stay mobile.";
+        UpdateObjective();
+    }
+
     private void BuildUi()
     {
         healthText = "HP 3/3";
@@ -320,7 +422,11 @@ public class GameStateController : MonoBehaviour
 
     private void UpdateObjective()
     {
-        if (storyPhase == StoryPhase.ChapterTwo)
+        if (storyPhase == StoryPhase.ChapterThree)
+        {
+            objectiveText = "Objective: Break the warden of the drowned vault.";
+        }
+        else if (storyPhase == StoryPhase.ChapterTwo)
         {
             objectiveText = "Objective: Survive the flooded vault and reach the tidal seal.";
         }

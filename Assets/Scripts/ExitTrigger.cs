@@ -38,7 +38,7 @@ public class ExitTrigger : MonoBehaviour
 
         if (exitMode == ExitMode.FinalSeal)
         {
-            gameState.CompleteGame();
+            gameState.ReachTidalSeal();
             return;
         }
 
