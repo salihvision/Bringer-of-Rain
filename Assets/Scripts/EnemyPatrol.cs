@@ -27,6 +27,7 @@ public class EnemyPatrol : MonoBehaviour, IWaterReactive
     private float stateEndsAt;
     private float nextDashAt;
     private float nextTouchTime;
+    private float stunImmuneUntil;
     private float chaseMultiplier;
     private float dashSpeed;
     private float windupDuration;
@@ -42,7 +43,8 @@ public class EnemyPatrol : MonoBehaviour, IWaterReactive
     private const float ChaseRange = 6.8f;
     private const float AttackRange = 2.35f;
     private const float VerticalAwareness = 2f;
-    private const float StunDuration = 0.3f;
+    private const float StunDuration = 0.12f;
+    private const float StunImmunityWindow = 0.55f;
     private static readonly Color BaseColor = Color.white;
     private static readonly Color AlertColor = new(1f, 0.94f, 0.86f, 1f);
     private static readonly Color DashColor = new(1f, 0.74f, 0.74f, 1f);
@@ -61,11 +63,11 @@ public class EnemyPatrol : MonoBehaviour, IWaterReactive
         speed = moveSpeed;
 
         float threatBlend = Mathf.InverseLerp(1f, 1.85f, Mathf.Max(1f, difficultyScale));
-        maxHealth = Mathf.RoundToInt(Mathf.Lerp(5f, 8f, threatBlend));
+        maxHealth = Mathf.RoundToInt(Mathf.Lerp(7f, 11f, threatBlend));
         contactDamage = difficultyScale >= 1.45f ? 2 : 1;
         chaseMultiplier = Mathf.Lerp(1.45f, 1.85f, threatBlend);
         dashSpeed = Mathf.Lerp(9.2f, 12.4f, threatBlend);
-        windupDuration = Mathf.Lerp(0.4f, 0.22f, threatBlend);
+        windupDuration = Mathf.Lerp(0.3f, 0.16f, threatBlend);
         dashDuration = Mathf.Lerp(0.34f, 0.42f, threatBlend);
         recoverDuration = Mathf.Lerp(0.48f, 0.24f, threatBlend);
         dashCooldown = Mathf.Lerp(1.05f, 0.62f, threatBlend);
@@ -86,16 +88,32 @@ public class EnemyPatrol : MonoBehaviour, IWaterReactive
 
         currentHealth -= damage;
         direction = burst.Direction.x > 0f ? -1f : 1f;
-        knockbackVelocity = burst.Direction.x * 7f;
-        currentState = EnemyState.Stunned;
-        stateEndsAt = Time.time + StunDuration;
         spriteRenderer.color = HurtColor;
 
         if (currentHealth <= 0)
         {
+            knockbackVelocity = burst.Direction.x * 7f;
+            currentState = EnemyState.Stunned;
+            stateEndsAt = Time.time + StunDuration;
             WaterBurstVisual.Spawn(transform.position, new Vector2(1.4f, 1f), burst.Direction.x);
+            SimpleCameraFollow.RequestHitstop(0.09f);
+            SimpleCameraFollow.RequestShake(0.32f, 0.35f);
             Destroy(gameObject);
+            return;
         }
+
+        WaterBurstVisual.Spawn(transform.position, new Vector2(0.6f, 0.5f), burst.Direction.x);
+
+        if (Time.time < stunImmuneUntil)
+        {
+            knockbackVelocity = burst.Direction.x * 2.5f;
+            return;
+        }
+
+        knockbackVelocity = burst.Direction.x * 7f;
+        currentState = EnemyState.Stunned;
+        stateEndsAt = Time.time + StunDuration;
+        stunImmuneUntil = stateEndsAt + StunImmunityWindow;
     }
 
     private void Awake()
@@ -114,11 +132,11 @@ public class EnemyPatrol : MonoBehaviour, IWaterReactive
         spriteRenderer.color = BaseColor;
         spriteRenderer.sortingOrder = 9;
 
-        maxHealth = 5;
+        maxHealth = 7;
         contactDamage = 1;
         chaseMultiplier = 1.45f;
         dashSpeed = 9.2f;
-        windupDuration = 0.4f;
+        windupDuration = 0.3f;
         dashDuration = 0.34f;
         recoverDuration = 0.48f;
         dashCooldown = 1.05f;

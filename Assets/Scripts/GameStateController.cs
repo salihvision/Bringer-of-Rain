@@ -283,6 +283,8 @@ public class GameStateController : MonoBehaviour
             chapterTwoRoot.SetActive(true);
         }
 
+        SimpleCameraFollow.SetHorizontalLimits(new Vector2(50f, 80f));
+
         checkpointPosition = chapterTwoSpawnPoint;
 
         if (player != null)

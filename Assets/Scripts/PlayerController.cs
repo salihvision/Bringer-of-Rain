@@ -175,6 +175,9 @@ public class PlayerController : MonoBehaviour
         attackPoseUntil = 0f;
         hurtPoseUntil = Time.time + 0.22f;
 
+        SimpleCameraFollow.RequestHitstop(0.08f);
+        SimpleCameraFollow.RequestShake(0.28f, 0.32f);
+
         float direction = Mathf.Sign(transform.position.x - sourcePosition.x);
         if (direction == 0f)
         {
@@ -486,6 +489,12 @@ public class PlayerController : MonoBehaviour
         if (hitSomething && !isGrounded)
         {
             body.linearVelocity = new Vector2(body.linearVelocity.x, Mathf.Max(body.linearVelocity.y, 2.5f));
+        }
+
+        if (hitSomething)
+        {
+            SimpleCameraFollow.RequestHitstop(0.05f);
+            SimpleCameraFollow.RequestShake(0.18f, 0.22f);
         }
 
         WaterBurstVisual.Spawn(burstOrigin, AttackSize, direction);

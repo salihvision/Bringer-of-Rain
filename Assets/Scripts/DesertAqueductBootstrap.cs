@@ -157,12 +157,10 @@ public class DesertAqueductBootstrap : MonoBehaviour
         unlockOnRestore.Add(waterFlowBridge);
         unlockOnRestore.Add(waterFlowB);
 
-        CreateEnemy("SentryScout", new Vector2(4.5f, -3.55f), 2.6f, 6.8f, 1.45f, "MaskDude");
-        CreateEnemy("SentryA", new Vector2(19.5f, -9.6f), 17.2f, 21.4f, 1.8f, "MaskDude");
-        CreateEnemy("SentryB", new Vector2(26.2f, -9.6f), 24.5f, 28f, 1.95f, "MaskDude");
-        CreateEnemy("SentryGate", new Vector2(35.5f, -9.6f), 33.2f, 37.2f, 2.05f, "MaskDude");
-        CreateEnemy("SentryC", new Vector2(31f, 1.18f), 28f, 37f, 1.6f, "NinjaFrog");
-        CreateEnemy("SentryD", new Vector2(39.5f, 1.18f), 37.4f, 44f, 1.7f, "NinjaFrog");
+        CreateEnemy("SentryScout", new Vector2(4.5f, -3.42f), 2.6f, 6.8f, 1.45f, "MaskDude");
+        CreateEnemy("SentryA", new Vector2(19.5f, -9.42f), 17.2f, 21.4f, 1.8f, "MaskDude");
+        CreateEnemy("SentryB", new Vector2(26.2f, -9.42f), 24.5f, 28f, 1.95f, "MaskDude");
+        CreateEnemy("SentryGate", new Vector2(35.5f, -9.42f), 33.2f, 37.2f, 2.05f, "MaskDude");
 
         CreateHazard("DrySpikes", new Vector2(35f, -10f), new Vector2(2f, 0.7f), false);
         CreateHazard("KillPlane", new Vector2(20f, -18f), new Vector2(80f, 4f), true);
@@ -211,10 +209,10 @@ public class DesertAqueductBootstrap : MonoBehaviour
         CreateHazard("VaultSpikesA", new Vector2(64.3f, -4.03f), new Vector2(2.4f, 0.7f), false);
         CreateHazard("VaultSpikesB", new Vector2(72.2f, -4.03f), new Vector2(2.1f, 0.7f), false);
 
-        CreateEnemy("VaultHunterA", new Vector2(57f, -3.55f), 54.6f, 59.6f, 2.15f, "NinjaFrog", 1.35f);
-        CreateEnemy("VaultCrusherA", new Vector2(63.4f, -3.55f), 61.2f, 66.2f, 2.25f, "MaskDude", 1.55f);
-        CreateEnemy("VaultHunterB", new Vector2(69.2f, -1.35f), 67.2f, 72.6f, 2.4f, "NinjaFrog", 1.7f);
-        CreateEnemy("VaultCrusherB", new Vector2(74.2f, -3.55f), 71.7f, 76.5f, 2.5f, "MaskDude", 1.82f);
+        CreateEnemy("VaultHunterA", new Vector2(57f, -3.42f), 54.6f, 59.6f, 2.15f, "NinjaFrog", 1.35f);
+        CreateEnemy("VaultCrusherA", new Vector2(63.4f, -3.42f), 61.2f, 66.2f, 2.25f, "MaskDude", 1.55f);
+        CreateEnemy("VaultHunterB", new Vector2(71.2f, -0.02f), 69.3f, 73.1f, 2.4f, "NinjaFrog", 1.7f);
+        CreateEnemy("VaultCrusherB", new Vector2(72.1f, -3.42f), 71.2f, 73.0f, 2.5f, "MaskDude", 1.82f);
 
         CreateCheckpoint(new Vector2(53.8f, -3.7f), chapterTwoSpawn);
         CreateStorySign(
