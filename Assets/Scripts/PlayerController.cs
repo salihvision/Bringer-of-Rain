@@ -93,7 +93,8 @@ public class PlayerController : MonoBehaviour
     private const float SpearSpeed = 20f;
     private const float SpearMaxRange = 18f;
     private const float SpearAimTimeScale = 0.35f;
-    private const float SpearAimGuideLength = 5.4f;
+    private const float SpearAimMaxGuideLength = 80f;
+    private const float SpearAimGuideHitPadding = 0.08f;
     private const float SpearAimMinDistance = 0.24f;
     private const float SpearOriginVerticalOffset = 0.24f;
     private const float SpearSpawnForwardOffset = 0.72f;
@@ -120,7 +121,8 @@ public class PlayerController : MonoBehaviour
     public int MaxHealth => MaxHealthValue;
     public bool FacingRight => facingRight;
     public bool IsGrounded => isGrounded;
-    public bool IsAttacking => isSpearAiming || Time.time < attackPoseUntil;
+    public bool IsAttacking => Time.time < attackPoseUntil;
+    public bool IsSpearAiming => isSpearAiming;
     public bool IsDownAttacking => Time.time < downAttackPoseUntil;
     public bool IsHurt => Time.time < hurtPoseUntil;
     public Vector2 Velocity => body != null ? body.linearVelocity : Vector2.zero;
@@ -514,8 +516,6 @@ public class PlayerController : MonoBehaviour
 
         isSpearAiming = true;
         currentSpearAimDirection = ResolveSpearAimDirection();
-        attackPoseUntil = Time.time + 0.18f;
-        attackSequence++;
         ApplySpearSlowMotion();
         UpdateSpearAimGuide();
     }
@@ -528,7 +528,6 @@ public class PlayerController : MonoBehaviour
             facingRight = currentSpearAimDirection.x > 0f;
         }
 
-        attackPoseUntil = Time.time + 0.12f;
         ApplySpearSlowMotion();
         UpdateSpearAimGuide();
     }
@@ -660,14 +659,54 @@ public class PlayerController : MonoBehaviour
         spearAimGuide.transform.position = new Vector3(origin.x, origin.y, -0.45f);
         spearAimGuide.transform.rotation = Quaternion.Euler(0f, 0f, angle);
 
-        spearAimLine.localPosition = new Vector3(SpearAimGuideLength * 0.5f, 0f, 0f);
-        spearAimLine.localScale = new Vector3(SpearAimGuideLength, 0.045f, 1f);
-        spearAimReticle.localPosition = new Vector3(SpearAimGuideLength, 0f, 0f);
+        float guideLength = ResolveSpearAimGuideLength(origin, currentSpearAimDirection);
+        spearAimLine.localPosition = new Vector3(guideLength * 0.5f, 0f, 0f);
+        spearAimLine.localScale = new Vector3(guideLength, 0.045f, 1f);
+        spearAimReticle.localPosition = new Vector3(guideLength, 0f, 0f);
         spearAimReticle.localScale = new Vector3(0.2f, 0.2f, 1f);
 
         float alpha = 0.52f + Mathf.PingPong(Time.unscaledTime * 2.8f, 0.24f);
         spearAimLineRenderer.color = new Color(SpearAimColor.r, SpearAimColor.g, SpearAimColor.b, alpha);
         spearAimReticleRenderer.color = new Color(0.9f, 1f, 1f, alpha + 0.12f);
+    }
+
+    private float ResolveSpearAimGuideLength(Vector2 origin, Vector2 aimDirection)
+    {
+        RaycastHit2D[] hits = Physics2D.RaycastAll(origin, aimDirection, SpearAimMaxGuideLength);
+        float nearestDistance = SpearAimMaxGuideLength;
+
+        foreach (RaycastHit2D hit in hits)
+        {
+            if (hit.collider == null)
+            {
+                continue;
+            }
+
+            GameObject targetObject = hit.collider.attachedRigidbody != null
+                ? hit.collider.attachedRigidbody.gameObject
+                : hit.collider.gameObject;
+
+            bool isCombatTarget = targetObject.TryGetComponent<EnemyPatrol>(out _) ||
+                                  targetObject.TryGetComponent<BossController>(out _);
+            if (targetObject == gameObject ||
+                hit.collider.transform.IsChildOf(transform) ||
+                (hit.collider.isTrigger && !isCombatTarget))
+            {
+                continue;
+            }
+
+            if (hit.distance < nearestDistance)
+            {
+                nearestDistance = hit.distance;
+            }
+        }
+
+        if (Mathf.Approximately(nearestDistance, SpearAimMaxGuideLength))
+        {
+            return SpearAimMaxGuideLength;
+        }
+
+        return Mathf.Max(0.2f, nearestDistance - SpearAimGuideHitPadding);
     }
 
     private void EnsureSpearAimGuide()
