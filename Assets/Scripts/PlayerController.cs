@@ -394,7 +394,10 @@ public class PlayerController : MonoBehaviour
         HandleFallState();
         UpdateVisualState();
 
-        if (transform.position.y < -18f)
+        // Safety net for falling out of the world. Sits below the chapter 3 depths kill plane
+        // (which is at y=-48..-52) so accidental falls in the depths get caught by the kill plane
+        // and respawn locally instead of triggering this hardcoded out-of-bounds check.
+        if (transform.position.y < -60f)
         {
             ForceRespawn();
         }
