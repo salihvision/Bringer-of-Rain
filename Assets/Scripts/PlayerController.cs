@@ -60,6 +60,7 @@ public class PlayerController : MonoBehaviour
     private int attackVariant;
     private int attackSequence;
     private int currentHealth;
+    private int currentManaFragments;
     private Vector2 currentSpearAimDirection = Vector2.right;
 
     private const float MoveSpeed = 8.45f;
@@ -83,7 +84,8 @@ public class PlayerController : MonoBehaviour
     private const float AttackLungeSpeed = 0.45f;
     private const float AttackLift = 0.2f;
     private const float AttackHitRadius = 0.58f;
-    private const int MaxHealthValue = 3;
+    private const int MaxHealthValue = 6;
+    private const int MaxManaFragmentsValue = 9;
     private const float DownAttackBounceForce = 14f;
     private const float DownAttackDownwardBoost = -6f;
     private const float DownAttackHitRadius = 0.72f;
@@ -119,6 +121,8 @@ public class PlayerController : MonoBehaviour
 
     public int CurrentHealth => currentHealth;
     public int MaxHealth => MaxHealthValue;
+    public int CurrentManaFragments => currentManaFragments;
+    public int MaxManaFragments => MaxManaFragmentsValue;
     public bool FacingRight => facingRight;
     public bool IsGrounded => isGrounded;
     public bool IsAttacking => Time.time < attackPoseUntil;
@@ -170,7 +174,9 @@ public class PlayerController : MonoBehaviour
     public void RestoreFullHealth()
     {
         currentHealth = MaxHealthValue;
+        currentManaFragments = MaxManaFragmentsValue;
         gameState?.UpdateHealth(currentHealth, MaxHealthValue);
+        gameState?.UpdateMana(currentManaFragments, MaxManaFragmentsValue);
         spriteRenderer.color = DefaultColor;
         RestoreIgnoredPlatformCollisions();
         invulnerableUntil = Time.time + 0.85f;
@@ -251,6 +257,7 @@ public class PlayerController : MonoBehaviour
         spriteRenderer.sortingOrder = 12;
 
         currentHealth = MaxHealthValue;
+        currentManaFragments = MaxManaFragmentsValue;
     }
 
     private void Start()
@@ -275,6 +282,7 @@ public class PlayerController : MonoBehaviour
         transform.position = spawnPoint;
         body.position = spawnPoint;
         gameState?.UpdateHealth(currentHealth, MaxHealthValue);
+        gameState?.UpdateMana(currentManaFragments, MaxManaFragmentsValue);
     }
 
     private void OnDisable()
@@ -319,20 +327,24 @@ public class PlayerController : MonoBehaviour
             coyoteCounter -= Time.deltaTime;
         }
 
-        bool dropPressed = !inputLocked && moveVerticalInput < -0.5f && !dropInputHeld;
-        dropInputHeld = moveVerticalInput < -0.5f;
-        if (dropPressed)
+        bool jumpPressed = !inputLocked && jumpAction.WasPressedThisFrame();
+        bool dropped = false;
+
+        if (jumpPressed && moveVerticalInput < -0.5f)
         {
-            TryDropThroughOneWayPlatform();
-            gameState?.NotifyPlayerActivity();
+            dropped = TryDropThroughOneWayPlatform();
+            if (dropped)
+            {
+                gameState?.NotifyPlayerActivity();
+            }
         }
 
-        if (!inputLocked && jumpAction.WasPressedThisFrame())
+        if (jumpPressed && !dropped)
         {
             jumpBufferCounter = JumpBufferTime;
             gameState?.NotifyPlayerActivity();
         }
-        else
+        else if (!jumpPressed)
         {
             jumpBufferCounter -= Time.deltaTime;
         }
@@ -454,11 +466,11 @@ public class PlayerController : MonoBehaviour
         return bestHit;
     }
 
-    private void TryDropThroughOneWayPlatform()
+    private bool TryDropThroughOneWayPlatform()
     {
         if (currentGroundCollider == null || currentGroundCollider.GetComponent<PlatformEffector2D>() == null)
         {
-            return;
+            return false;
         }
 
         Physics2D.IgnoreCollision(capsule, currentGroundCollider, true);
@@ -469,6 +481,7 @@ public class PlayerController : MonoBehaviour
         jumpBufferCounter = 0f;
         isGrounded = false;
         currentGroundCollider = null;
+        return true;
     }
 
     private void ReleaseExpiredOneWayPlatformIgnores()
@@ -509,7 +522,7 @@ public class PlayerController : MonoBehaviour
 
     private void StartSpearAim()
     {
-        if (isSpearAiming || Time.time < nextSpearTime)
+        if (isSpearAiming || Time.time < nextSpearTime || currentManaFragments < 3)
         {
             return;
         }
@@ -547,6 +560,9 @@ public class PlayerController : MonoBehaviour
         isSpearAiming = false;
         HideSpearAimGuide();
         RestoreSpearSlowMotion();
+
+        currentManaFragments -= 3;
+        gameState?.UpdateMana(currentManaFragments, MaxManaFragmentsValue);
 
         nextSpearTime = Time.time + SpearCooldown;
         attackPoseUntil = Time.time + 0.42f;
@@ -809,6 +825,9 @@ public class PlayerController : MonoBehaviour
 
         if (hitSomething)
         {
+            currentManaFragments = Mathf.Min(currentManaFragments + 1, MaxManaFragmentsValue);
+            gameState?.UpdateMana(currentManaFragments, MaxManaFragmentsValue);
+            
             GameAudioController.Play(AudioCue.BurstHit);
             SimpleCameraFollow.RequestHitstop(0.05f);
             SimpleCameraFollow.RequestShake(0.18f, 0.22f);
@@ -874,6 +893,9 @@ public class PlayerController : MonoBehaviour
 
         if (hitSomething)
         {
+            currentManaFragments = Mathf.Min(currentManaFragments + 1, MaxManaFragmentsValue);
+            gameState?.UpdateMana(currentManaFragments, MaxManaFragmentsValue);
+            
             body.linearVelocity = new Vector2(body.linearVelocity.x, DownAttackBounceForce);
             coyoteCounter = CoyoteTime;
             GameAudioController.Play(AudioCue.BurstHit);

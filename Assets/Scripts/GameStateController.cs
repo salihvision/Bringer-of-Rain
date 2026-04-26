@@ -18,7 +18,8 @@ public class GameStateController : MonoBehaviour
     private const string DefaultHintText = "Move A/D or Arrows   Jump Space   Burst F / Mouse 1 / Enter   Ice Spear hold/release Mouse 2";
 
     private PlayerController player;
-    private string healthText = "HP 3/3";
+    private string healthText = "HP 6/6";
+    private string manaText = "MP 3/3";
     private string objectiveText = string.Empty;
     private string centerMessage = string.Empty;
     private string hintText = DefaultHintText;
@@ -60,6 +61,7 @@ public class GameStateController : MonoBehaviour
     {
         player = controlledPlayer;
         UpdateHealth(player.CurrentHealth, player.MaxHealth);
+        UpdateMana(player.CurrentManaFragments, player.MaxManaFragments);
     }
 
     public void ConfigureProgression(GameObject gateToDisable, IEnumerable<GameObject> objectsToEnable)
@@ -85,6 +87,13 @@ public class GameStateController : MonoBehaviour
     public void UpdateHealth(int currentHealth, int maxHealth)
     {
         healthText = $"HP {currentHealth}/{maxHealth}";
+    }
+
+    public void UpdateMana(int currentManaFragments, int maxManaFragments)
+    {
+        int currentBars = currentManaFragments / 3;
+        int maxBars = maxManaFragments / 3;
+        manaText = $"MP {currentBars}/{maxBars}";
     }
 
     public void RegisterValveActivated(string valveLabel)
@@ -183,6 +192,12 @@ public class GameStateController : MonoBehaviour
             return;
         }
 
+        GameObject gate = GameObject.Find("afterbossgate");
+        if (gate != null)
+        {
+            Destroy(gate);
+        }
+
         CompleteGame();
     }
 
@@ -235,7 +250,8 @@ public class GameStateController : MonoBehaviour
         EnsureStyles();
 
         GUI.Box(new Rect(12f, 12f, 325f, 86f), GUIContent.none, panelStyle);
-        GUI.Label(new Rect(24f, 20f, 250f, 28f), healthText, hudStyle);
+        GUI.Label(new Rect(24f, 20f, 120f, 28f), healthText, hudStyle);
+        GUI.Label(new Rect(150f, 20f, 120f, 28f), manaText, hudStyle);
         GUI.Label(new Rect(24f, 48f, 720f, 44f), objectiveText, hudStyle);
 
         GUI.Box(new Rect(12f, Screen.height - 56f, 560f, 40f), GUIContent.none, panelStyle);
@@ -418,7 +434,8 @@ public class GameStateController : MonoBehaviour
 
     private void BuildUi()
     {
-        healthText = "HP 3/3";
+        healthText = "HP 6/6";
+        manaText = "MP 3/3";
         objectiveText = "Objective: Reach the lower pumps and restore the twin valves (0/2).";
         centerMessage = string.Empty;
         hintText = DefaultHintText;

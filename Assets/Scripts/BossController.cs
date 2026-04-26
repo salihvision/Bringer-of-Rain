@@ -22,8 +22,8 @@ public class BossController : MonoBehaviour, IWaterReactive
         Dashing
     }
 
-    private const int MaxHealthValue = 32;
-    private const int Phase2Threshold = 16;
+    private const int MaxHealthValue = 16;
+    private const int Phase2Threshold = 8;
     private const float SlamWindupDuration = 0.7f;
     private const float CleaveActiveDuration = 0.42f;
     private const float CleaveHitWindow = 0.22f;
