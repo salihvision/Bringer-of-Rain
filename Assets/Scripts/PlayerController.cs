@@ -100,8 +100,6 @@ public class PlayerController : MonoBehaviour
     private const float SpearAimMinDistance = 0.24f;
     private const float SpearOriginVerticalOffset = 0.24f;
     private const float SpearSpawnForwardOffset = 0.72f;
-    private static readonly Vector2 AttackSize = new(3.2f, 0.9f);
-    private static readonly Vector2 DownAttackSize = new(1.2f, 2.4f);
     private static readonly Vector2 AttackOffset = new(0.72f, 0.2f);
     private static readonly Vector2[] AttackHitOffsets =
     {
