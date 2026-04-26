@@ -1,0 +1,2418 @@
+fileFormatVersion: 2
+guid: e5996852b53415047ac0a67a5fad19d5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3460707768221551638
+    second: whipattacksplash_0
+  - first:
+      213: -7045004488667064449
+    second: whipattacksplash_1
+  - first:
+      213: -8165407826834315187
+    second: whipattacksplash_2
+  - first:
+      213: 2594004205417736762
+    second: whipattacksplash_3
+  - first:
+      213: -3535648313418248756
+    second: whipattacksplash_4
+  - first:
+      213: -3181528940582580381
+    second: whipattacksplash_5
+  - first:
+      213: -721955317713166629
+    second: whipattacksplash_6
+  - first:
+      213: -2102678368518707830
+    second: whipattacksplash_7
+  - first:
+      213: -54885912714050021
+    second: whipattacksplash_8
+  - first:
+      213: -5583444760995207747
+    second: whipattacksplash_9
+  - first:
+      213: 8169046783341704133
+    second: whipattacksplash_10
+  - first:
+      213: 6813031420247199217
+    second: whipattacksplash_11
+  - first:
+      213: -192738807769791209
+    second: whipattacksplash_12
+  - first:
+      213: 195424762567646175
+    second: whipattacksplash_13
+  - first:
+      213: -2496881619558382810
+    second: whipattacksplash_14
+  - first:
+      213: -439017197639412936
+    second: whipattacksplash_15
+  - first:
+      213: -3587135338510733775
+    second: whipattacksplash_16
+  - first:
+      213: -1185534092801953917
+    second: whipattacksplash_17
+  - first:
+      213: 4328944832698188216
+    second: whipattacksplash_18
+  - first:
+      213: 8531771781307371252
+    second: whipattacksplash_19
+  - first:
+      213: 4127284775379916983
+    second: whipattacksplash_20
+  - first:
+      213: -3752788160708961639
+    second: whipattacksplash_21
+  - first:
+      213: -8311292360546033957
+    second: whipattacksplash_22
+  - first:
+      213: -6000824657019554179
+    second: whipattacksplash_23
+  - first:
+      213: -517884435314082037
+    second: whipattacksplash_24
+  - first:
+      213: 2600899196695048092
+    second: whipattacksplash_25
+  - first:
+      213: 7118190502807727078
+    second: whipattacksplash_26
+  - first:
+      213: -4914292271278932368
+    second: whipattacksplash_27
+  - first:
+      213: 6152861559381786478
+    second: whipattacksplash_28
+  - first:
+      213: 7619603539743505185
+    second: whipattacksplash_29
+  - first:
+      213: 4353449818360835508
+    second: whipattacksplash_30
+  - first:
+      213: 1149565207719319189
+    second: whipattacksplash_31
+  - first:
+      213: 1863259926625314367
+    second: whipattacksplash_32
+  - first:
+      213: -4743370964575777849
+    second: whipattacksplash_33
+  - first:
+      213: -168399227220975113
+    second: whipattacksplash_34
+  - first:
+      213: 7902969546415110925
+    second: whipattacksplash_35
+  - first:
+      213: 8403474460448014507
+    second: whipattacksplash_36
+  - first:
+      213: -5365448818258601141
+    second: whipattacksplash_37
+  - first:
+      213: 931991897611748607
+    second: whipattacksplash_38
+  - first:
+      213: -5429584808543309670
+    second: whipattacksplash_39
+  - first:
+      213: -1695448502969403951
+    second: whipattacksplash_40
+  - first:
+      213: 7907391927558336604
+    second: whipattacksplash_41
+  - first:
+      213: -3950785325664773496
+    second: whipattacksplash_42
+  - first:
+      213: -5307537206175882077
+    second: whipattacksplash_43
+  - first:
+      213: -2137531485887733521
+    second: whipattacksplash_44
+  - first:
+      213: -3664148526441578098
+    second: whipattacksplash_45
+  - first:
+      213: -8311069522046725128
+    second: whipattacksplash_46
+  - first:
+      213: -703703430164263617
+    second: whipattacksplash_47
+  - first:
+      213: -5428629559957899258
+    second: whipattacksplash_48
+  - first:
+      213: -8141933460122943502
+    second: whipattacksplash_49
+  - first:
+      213: -4968587581452409620
+    second: whipattacksplash_50
+  - first:
+      213: 4884111815568178315
+    second: whipattacksplash_51
+  - first:
+      213: 4908975649674750739
+    second: whipattacksplash_52
+  - first:
+      213: -73252207021506300
+    second: whipattacksplash_53
+  - first:
+      213: 3063571643942391457
+    second: whipattacksplash_54
+  - first:
+      213: -4185816922165598123
+    second: whipattacksplash_55
+  - first:
+      213: -7913953902832445971
+    second: whipattacksplash_56
+  - first:
+      213: 7488153709947908348
+    second: whipattacksplash_57
+  - first:
+      213: -2138681380573876398
+    second: whipattacksplash_58
+  - first:
+      213: 1037668739548898964
+    second: whipattacksplash_59
+  - first:
+      213: -9169238297496432478
+    second: whipattacksplash_60
+  - first:
+      213: 5939741319436702494
+    second: whipattacksplash_61
+  - first:
+      213: 3050008810102792636
+    second: whipattacksplash_62
+  - first:
+      213: 8096364930001510619
+    second: whipattacksplash_63
+  - first:
+      213: 2364110763272472818
+    second: whipattacksplash_64
+  - first:
+      213: -8746681541223417353
+    second: whipattacksplash_65
+  - first:
+      213: -7057437973380325801
+    second: whipattacksplash_66
+  - first:
+      213: 8704804224196458341
+    second: whipattacksplash_67
+  - first:
+      213: 1044712364008990421
+    second: whipattacksplash_68
+  - first:
+      213: -661568455601282528
+    second: whipattacksplash_69
+  - first:
+      213: -3441197468691468914
+    second: whipattacksplash_70
+  - first:
+      213: 5443988837857711245
+    second: whipattacksplash_71
+  - first:
+      213: 3986776651935091576
+    second: whipattacksplash_72
+  - first:
+      213: 1331194278508090758
+    second: whipattacksplash_73
+  - first:
+      213: 257226379603753713
+    second: whipattacksplash_74
+  - first:
+      213: -7283743128273518214
+    second: whipattacksplash_75
+  - first:
+      213: -3266539941980554474
+    second: whipattacksplash_76
+  - first:
+      213: -2937741921391252681
+    second: whipattacksplash_77
+  - first:
+      213: 5235883379292157515
+    second: whipattacksplash_78
+  - first:
+      213: -5001130675438318031
+    second: whipattacksplash_79
+  - first:
+      213: -5553286626991684010
+    second: whipattacksplash_80
+  - first:
+      213: -5250793631479633512
+    second: whipattacksplash_81
+  - first:
+      213: -8771213062323025913
+    second: whipattacksplash_82
+  - first:
+      213: -1005212391593537348
+    second: whipattacksplash_83
+  - first:
+      213: 2483749119814976115
+    second: whipattacksplash_84
+  - first:
+      213: 3973801485195345835
+    second: whipattacksplash_85
+  - first:
+      213: -7448711546837301002
+    second: whipattacksplash_86
+  - first:
+      213: 6576249308662835350
+    second: whipattacksplash_87
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: whipattacksplash_0
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1661
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae338b3de9819ffc0800000000000000
+      internalID: -3460707768221551638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_1
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 1655
+        width: 34
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7797fb5ebd1b3e90800000000000000
+      internalID: -7045004488667064449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_2
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 1645
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d48a85bf7d4aeae80800000000000000
+      internalID: -8165407826834315187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_3
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 1641
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3a2bc9c411cff320800000000000000
+      internalID: 2594004205417736762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_4
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 1641
+        width: 138
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccd0ff3779adeeec0800000000000000
+      internalID: -3535648313418248756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_5
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 1383
+        width: 50
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36f43f5f840f8d3d0800000000000000
+      internalID: -3181528940582580381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_6
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 1427
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bde9000b6791bf5f0800000000000000
+      internalID: -721955317713166629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_7
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 1409
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a856b8f0a29c1d2e0800000000000000
+      internalID: -2102678368518707830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_8
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 1387
+        width: 98
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b16818d9d810d3ff0800000000000000
+      internalID: -54885912714050021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_9
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 1421
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db56ddd729e9382b0800000000000000
+      internalID: -5583444760995207747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_10
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 1433
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c331aa94c84e5170800000000000000
+      internalID: 8169046783341704133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_11
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1385
+        width: 116
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fdc86fcaffbc8e50800000000000000
+      internalID: 6813031420247199217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_12
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1385
+        width: 116
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71503745311435df0800000000000000
+      internalID: -192738807769791209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_13
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 1381
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdbd82149c946b200800000000000000
+      internalID: 195424762567646175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_14
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 1409
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6234504656b495dd0800000000000000
+      internalID: -2496881619558382810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_15
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 1387
+        width: 104
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8335a6c4f2c48e9f0800000000000000
+      internalID: -439017197639412936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_16
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 1387
+        width: 90
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13e21d24a6fe73ec0800000000000000
+      internalID: -3587135338510733775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_17
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 1381
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38fac6916032c8fe0800000000000000
+      internalID: -1185534092801953917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_18
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 1399
+        width: 26
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b10d3db360831c30800000000000000
+      internalID: 4328944832698188216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_19
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 1135
+        width: 68
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fe07895b31f66670800000000000000
+      internalID: 8531771781307371252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_20
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 1149
+        width: 70
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b8d56bc2af074930800000000000000
+      internalID: 4127284775379916983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_21
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 1137
+        width: 74
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99a96ab0d0b6bebc0800000000000000
+      internalID: -3752788160708961639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_22
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 1163
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bde5c3912ab58ac80800000000000000
+      internalID: -8311292360546033957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_23
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 1159
+        width: 44
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d76b1f6a4c9c8bca0800000000000000
+      internalID: -6000824657019554179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_24
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 1139
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0f766699da10d8f0800000000000000
+      internalID: -517884435314082037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_25
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 1161
+        width: 68
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9f6b9b0a00481420800000000000000
+      internalID: 2600899196695048092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_26
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 1157
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ebe96b6c84e8c260800000000000000
+      internalID: 7118190502807727078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_27
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 1137
+        width: 40
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07eb8ff573deccbb0800000000000000
+      internalID: -4914292271278932368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_28
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 1143
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6f7b1f2dfa536550800000000000000
+      internalID: 6152861559381786478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_29
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 907
+        width: 46
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12b78bb8c054eb960800000000000000
+      internalID: 7619603539743505185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_30
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 1135
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bde2e25b8f8a6c30800000000000000
+      internalID: 4353449818360835508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_31
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 1135
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 596124c377314ff00800000000000000
+      internalID: 1149565207719319189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_32
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 891
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f36e8b20801abd910800000000000000
+      internalID: 1863259926625314367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_33
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 891
+        width: 62
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cb0f8a3d392c2eb0800000000000000
+      internalID: -4743370964575777849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_34
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 617
+        width: 152
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f12b098bc9b9adf0800000000000000
+      internalID: -168399227220975113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_35
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 617
+        width: 154
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0b7dc44eecfcad60800000000000000
+      internalID: 7902969546415110925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_36
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 617
+        width: 112
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba0421e8f732f9470800000000000000
+      internalID: 8403474460448014507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_37
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 659
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4b18272ab81a85b0800000000000000
+      internalID: -5365448818258601141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_38
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 617
+        width: 112
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff4c0b661b91fec00800000000000000
+      internalID: 931991897611748607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_39
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 659
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a903be0426d36a4b0800000000000000
+      internalID: -5429584808543309670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_40
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 665
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d57a85c19e8878e0800000000000000
+      internalID: -1695448502969403951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_41
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 617
+        width: 74
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c50f7ed1013bcbd60800000000000000
+      internalID: 7907391927558336604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_42
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 639
+        width: 38
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88adcefadadfb29c0800000000000000
+      internalID: -3950785325664773496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_43
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 651
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a4a7b11807d756b0800000000000000
+      internalID: -5307537206175882077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_44
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 635
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe0e27f4076f552e0800000000000000
+      internalID: -2137531485887733521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_45
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 639
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e81cd252454562dc0800000000000000
+      internalID: -3664148526441578098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_46
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 405
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f354dabd4629ac80800000000000000
+      internalID: -8311069522046725128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_47
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 411
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3dc5d96571fb36f0800000000000000
+      internalID: -703703430164263617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_48
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 413
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60836856d22a9a4b0800000000000000
+      internalID: -5428629559957899258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_49
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 415
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ff3184e7aa020f80800000000000000
+      internalID: -8141933460122943502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_50
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 419
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce4ac1c5be70c0bb0800000000000000
+      internalID: -4968587581452409620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_51
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 415
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8cba32b1d9d7c340800000000000000
+      internalID: 4884111815568178315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_52
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 415
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31be7e1385f202440800000000000000
+      internalID: 4908975649674750739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_53
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 421
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 401487d7181cbfef0800000000000000
+      internalID: -73252207021506300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_54
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 419
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ae452dbd2ef38a20800000000000000
+      internalID: 3063571643942391457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_55
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 421
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 558208bcfadf8e5c0800000000000000
+      internalID: -4185816922165598123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_56
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 415
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de51bd4fadcfb2290800000000000000
+      internalID: -7913953902832445971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_57
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 390
+        width: 76
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf0f7f010244be760800000000000000
+      internalID: 7488153709947908348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_58
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 379
+        width: 80
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25fe6279d90e152e0800000000000000
+      internalID: -2138681380573876398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_59
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 361
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 496e657883a866e00800000000000000
+      internalID: 1037668739548898964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_60
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 399
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a051d0695250c080800000000000000
+      internalID: -9169238297496432478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_61
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 361
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e131cba82433e6250800000000000000
+      internalID: 5939741319436702494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_62
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 411
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb12df76adec35a20800000000000000
+      internalID: 3050008810102792636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_63
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 403
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd0aba8e1011c5070800000000000000
+      internalID: 8096364930001510619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_64
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 397
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f8888ea6320fc020800000000000000
+      internalID: 2364110763272472818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_65
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 395
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f979ebea7b8d9680800000000000000
+      internalID: -8746681541223417353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_66
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 409
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75e105c1e81fe0e90800000000000000
+      internalID: -7057437973380325801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_67
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 379
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 567bc86625dadc870800000000000000
+      internalID: 8704804224196458341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_68
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 393
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d6e6352c509f7e00800000000000000
+      internalID: 1044712364008990421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_69
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 399
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0222849aef2a1d6f0800000000000000
+      internalID: -661568455601282528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_70
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 403
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8debac62296e30d0800000000000000
+      internalID: -3441197468691468914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_71
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 367
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8453b9210fec8b40800000000000000
+      internalID: 5443988837857711245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_72
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 379
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87b8969fd30e35730800000000000000
+      internalID: 3986776651935091576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_73
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 387
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 685d181b42a597210800000000000000
+      internalID: 1331194278508090758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_74
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 373
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fa3427870ad19300800000000000000
+      internalID: 257226379603753713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_75
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 381
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a71801c3732faea90800000000000000
+      internalID: -7283743128273518214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_76
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 387
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61bbf99ca3beaa2d0800000000000000
+      internalID: -3266539941980554474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_77
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 375
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73b63bd894b0b37d0800000000000000
+      internalID: -2937741921391252681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_78
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 383
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b46b41c413899a840800000000000000
+      internalID: 5235883379292157515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_79
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 381
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13e8037d52a689ab0800000000000000
+      internalID: -5001130675438318031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_80
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 389
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 656cb3e3c33cee2b0800000000000000
+      internalID: -5553286626991684010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_81
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 137
+        width: 66
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 899e5c6130f6127b0800000000000000
+      internalID: -5250793631479633512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_82
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 377
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70848f21134664680800000000000000
+      internalID: -8771213062323025913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_83
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 381
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb01f3bd7a4cc02f0800000000000000
+      internalID: -1005212391593537348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_84
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 373
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 372c2cd3aac087220800000000000000
+      internalID: 2483749119814976115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_85
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 125
+        width: 94
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baffcfc8567c52730800000000000000
+      internalID: 3973801485195345835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_86
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 125
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f88968205cd0a890800000000000000
+      internalID: -7448711546837301002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whipattacksplash_87
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 125
+        width: 72
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 698a14d57e7834b50800000000000000
+      internalID: 6576249308662835350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      whipattacksplash_0: -3460707768221551638
+      whipattacksplash_1: -7045004488667064449
+      whipattacksplash_10: 8169046783341704133
+      whipattacksplash_11: 6813031420247199217
+      whipattacksplash_12: -192738807769791209
+      whipattacksplash_13: 195424762567646175
+      whipattacksplash_14: -2496881619558382810
+      whipattacksplash_15: -439017197639412936
+      whipattacksplash_16: -3587135338510733775
+      whipattacksplash_17: -1185534092801953917
+      whipattacksplash_18: 4328944832698188216
+      whipattacksplash_19: 8531771781307371252
+      whipattacksplash_2: -8165407826834315187
+      whipattacksplash_20: 4127284775379916983
+      whipattacksplash_21: -3752788160708961639
+      whipattacksplash_22: -8311292360546033957
+      whipattacksplash_23: -6000824657019554179
+      whipattacksplash_24: -517884435314082037
+      whipattacksplash_25: 2600899196695048092
+      whipattacksplash_26: 7118190502807727078
+      whipattacksplash_27: -4914292271278932368
+      whipattacksplash_28: 6152861559381786478
+      whipattacksplash_29: 7619603539743505185
+      whipattacksplash_3: 2594004205417736762
+      whipattacksplash_30: 4353449818360835508
+      whipattacksplash_31: 1149565207719319189
+      whipattacksplash_32: 1863259926625314367
+      whipattacksplash_33: -4743370964575777849
+      whipattacksplash_34: -168399227220975113
+      whipattacksplash_35: 7902969546415110925
+      whipattacksplash_36: 8403474460448014507
+      whipattacksplash_37: -5365448818258601141
+      whipattacksplash_38: 931991897611748607
+      whipattacksplash_39: -5429584808543309670
+      whipattacksplash_4: -3535648313418248756
+      whipattacksplash_40: -1695448502969403951
+      whipattacksplash_41: 7907391927558336604
+      whipattacksplash_42: -3950785325664773496
+      whipattacksplash_43: -5307537206175882077
+      whipattacksplash_44: -2137531485887733521
+      whipattacksplash_45: -3664148526441578098
+      whipattacksplash_46: -8311069522046725128
+      whipattacksplash_47: -703703430164263617
+      whipattacksplash_48: -5428629559957899258
+      whipattacksplash_49: -8141933460122943502
+      whipattacksplash_5: -3181528940582580381
+      whipattacksplash_50: -4968587581452409620
+      whipattacksplash_51: 4884111815568178315
+      whipattacksplash_52: 4908975649674750739
+      whipattacksplash_53: -73252207021506300
+      whipattacksplash_54: 3063571643942391457
+      whipattacksplash_55: -4185816922165598123
+      whipattacksplash_56: -7913953902832445971
+      whipattacksplash_57: 7488153709947908348
+      whipattacksplash_58: -2138681380573876398
+      whipattacksplash_59: 1037668739548898964
+      whipattacksplash_6: -721955317713166629
+      whipattacksplash_60: -9169238297496432478
+      whipattacksplash_61: 5939741319436702494
+      whipattacksplash_62: 3050008810102792636
+      whipattacksplash_63: 8096364930001510619
+      whipattacksplash_64: 2364110763272472818
+      whipattacksplash_65: -8746681541223417353
+      whipattacksplash_66: -7057437973380325801
+      whipattacksplash_67: 8704804224196458341
+      whipattacksplash_68: 1044712364008990421
+      whipattacksplash_69: -661568455601282528
+      whipattacksplash_7: -2102678368518707830
+      whipattacksplash_70: -3441197468691468914
+      whipattacksplash_71: 5443988837857711245
+      whipattacksplash_72: 3986776651935091576
+      whipattacksplash_73: 1331194278508090758
+      whipattacksplash_74: 257226379603753713
+      whipattacksplash_75: -7283743128273518214
+      whipattacksplash_76: -3266539941980554474
+      whipattacksplash_77: -2937741921391252681
+      whipattacksplash_78: 5235883379292157515
+      whipattacksplash_79: -5001130675438318031
+      whipattacksplash_8: -54885912714050021
+      whipattacksplash_80: -5553286626991684010
+      whipattacksplash_81: -5250793631479633512
+      whipattacksplash_82: -8771213062323025913
+      whipattacksplash_83: -1005212391593537348
+      whipattacksplash_84: 2483749119814976115
+      whipattacksplash_85: 3973801485195345835
+      whipattacksplash_86: -7448711546837301002
+      whipattacksplash_87: 6576249308662835350
+      whipattacksplash_9: -5583444760995207747
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

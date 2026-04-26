@@ -1,0 +1,923 @@
+fileFormatVersion: 2
+guid: 5381669f61a944a8aaa643a9b26f43f8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4241771439875738001
+    second: Desappearing96_0
+  - first:
+      213: -4928239210660810740
+    second: Desappearing96_1
+  - first:
+      213: -9117983475559584099
+    second: Desappearing96_2
+  - first:
+      213: -6203169189374358851
+    second: Desappearing96_3
+  - first:
+      213: -3351593566667262750
+    second: Desappearing96_4
+  - first:
+      213: -4657115421120273032
+    second: Desappearing96_5
+  - first:
+      213: 2133851672661181791
+    second: Desappearing96_6
+  - first:
+      213: -7194888649980074273
+    second: Desappearing96_7
+  - first:
+      213: 921346196937951780
+    second: Desappearing96_8
+  - first:
+      213: 7489987586130084922
+    second: Desappearing96_9
+  - first:
+      213: -1555199223109812685
+    second: Desappearing96_10
+  - first:
+      213: 4846770927438125377
+    second: Desappearing96_11
+  - first:
+      213: 4011654306069795719
+    second: Desappearing96_12
+  - first:
+      213: -5868803068745950528
+    second: Desappearing96_13
+  - first:
+      213: 2901264162404723754
+    second: Desappearing96_14
+  - first:
+      213: -8402853174565880874
+    second: Desappearing96_15
+  - first:
+      213: 7286613863898404649
+    second: Desappearing96_16
+  - first:
+      213: 438134022651780996
+    second: Desappearing96_17
+  - first:
+      213: -116778362088863729
+    second: Desappearing96_18
+  - first:
+      213: 2373868334326074649
+    second: Desappearing96_19
+  - first:
+      213: -4193480168304152604
+    second: Desappearing96_20
+  - first:
+      213: 8176280442953372957
+    second: Desappearing96_21
+  - first:
+      213: -8803021654386700922
+    second: Desappearing96_22
+  - first:
+      213: -4997665657571283005
+    second: Desappearing96_23
+  - first:
+      213: 4395568693268336730
+    second: Desappearing96_24
+  - first:
+      213: -3323519448270699890
+    second: Desappearing96_25
+  - first:
+      213: -3152069322491029180
+    second: Desappearing96_26
+  - first:
+      213: -4051987070904304762
+    second: Desappearing96_27
+  - first:
+      213: 5542324422923181091
+    second: Desappearing96_28
+  - first:
+      213: 506912130056717834
+    second: Desappearing96_29
+  - first:
+      213: 1810128908125211915
+    second: Desappearing96_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Desappearing96_0
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 83
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 199c03496accdda30800000000000000
+      internalID: 4241771439875738001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desappearing96_1
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 78
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0039608c806b9bb0800000000000000
+      internalID: -4928239210660810740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desappearing96_2
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 89
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9ea36f865a667180800000000000000
+      internalID: -9117983475559584099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desappearing96_3
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 78
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dba81b1fc7ae9e9a0800000000000000
+      internalID: -6203169189374358851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desappearing96_4
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 64
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e4305b986fbc71d0800000000000000
+      internalID: -3351593566667262750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desappearing96_5
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 74
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 875e12ee23a9e5fb0800000000000000
+      internalID: -4657115421120273032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desappearing96_6
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f55c7586ac6fc9d10800000000000000
+      internalID: 2133851672661181791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desappearing96_7
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 73
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd6a27b94ee962c90800000000000000
+      internalID: -7194888649980074273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desappearing96_8
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 73
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42ac4af0c7749cc00800000000000000
+      internalID: 921346196937951780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desappearing96_9
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 31
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a348e53a608c1f760800000000000000
+      internalID: 7489987586130084922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desappearing96_10
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 31
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33e739fdb82da6ae0800000000000000
+      internalID: -1555199223109812685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desappearing96_11
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 39
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 149d3adaa70334340800000000000000
+      internalID: 4846770927438125377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desappearing96_12
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 28
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 783d4f236524ca730800000000000000
+      internalID: 4011654306069795719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desappearing96_13
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 48
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cadca604b2dd8ea0800000000000000
+      internalID: -5868803068745950528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desappearing96_14
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2c64b7526c534820800000000000000
+      internalID: 2901264162404723754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desappearing96_15
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 32
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dbbc36de81136b80800000000000000
+      internalID: -8402853174565880874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desappearing96_16
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 45
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 927d91df3b04f1560800000000000000
+      internalID: 7286613863898404649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desappearing96_17
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 45
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48f1c208290941600800000000000000
+      internalID: 438134022651780996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desappearing96_18
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 45
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f08cd3ac2be116ef0800000000000000
+      internalID: -116778362088863729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desappearing96_19
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 45
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91dcd0b3caca1f020800000000000000
+      internalID: 2373868334326074649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desappearing96_20
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 45
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4efe5934104cdc5c0800000000000000
+      internalID: -4193480168304152604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desappearing96_21
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 45
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d15953a3ebbf77170800000000000000
+      internalID: 8176280442953372957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desappearing96_22
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 18
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68d853c127265d580800000000000000
+      internalID: -8803021654386700922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desappearing96_23
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 13
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cf6b4e2099b4aab0800000000000000
+      internalID: -4997665657571283005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desappearing96_24
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 18
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5056141072300d30800000000000000
+      internalID: 4395568693268336730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desappearing96_25
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 11
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8209b9abac70e1d0800000000000000
+      internalID: -3323519448270699890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desappearing96_26
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 11
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 449148dc6a99144d0800000000000000
+      internalID: -3152069322491029180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desappearing96_27
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 6
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68bf5443a3374c7c0800000000000000
+      internalID: -4051987070904304762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desappearing96_28
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 6
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32cde4ab2ba4aec40800000000000000
+      internalID: 5542324422923181091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desappearing96_29
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 5
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a060e5485e9e80700800000000000000
+      internalID: 506912130056717834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desappearing96_30
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 0
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0d0876c6aede1910800000000000000
+      internalID: 1810128908125211915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Desappearing96_0: 4241771439875738001
+      Desappearing96_1: -4928239210660810740
+      Desappearing96_10: -1555199223109812685
+      Desappearing96_11: 4846770927438125377
+      Desappearing96_12: 4011654306069795719
+      Desappearing96_13: -5868803068745950528
+      Desappearing96_14: 2901264162404723754
+      Desappearing96_15: -8402853174565880874
+      Desappearing96_16: 7286613863898404649
+      Desappearing96_17: 438134022651780996
+      Desappearing96_18: -116778362088863729
+      Desappearing96_19: 2373868334326074649
+      Desappearing96_2: -9117983475559584099
+      Desappearing96_20: -4193480168304152604
+      Desappearing96_21: 8176280442953372957
+      Desappearing96_22: -8803021654386700922
+      Desappearing96_23: -4997665657571283005
+      Desappearing96_24: 4395568693268336730
+      Desappearing96_25: -3323519448270699890
+      Desappearing96_26: -3152069322491029180
+      Desappearing96_27: -4051987070904304762
+      Desappearing96_28: 5542324422923181091
+      Desappearing96_29: 506912130056717834
+      Desappearing96_3: -6203169189374358851
+      Desappearing96_30: 1810128908125211915
+      Desappearing96_4: -3351593566667262750
+      Desappearing96_5: -4657115421120273032
+      Desappearing96_6: 2133851672661181791
+      Desappearing96_7: -7194888649980074273
+      Desappearing96_8: 921346196937951780
+      Desappearing96_9: 7489987586130084922
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

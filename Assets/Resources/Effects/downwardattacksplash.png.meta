@@ -1,0 +1,3276 @@
+fileFormatVersion: 2
+guid: 77977a2b59a3456449cf9ba10b2aec8c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1179848202212240058
+    second: downwardattacksplash_0
+  - first:
+      213: 5884632917218021259
+    second: downwardattacksplash_1
+  - first:
+      213: -7679896906372830948
+    second: downwardattacksplash_2
+  - first:
+      213: -3644248012013716653
+    second: downwardattacksplash_3
+  - first:
+      213: -275470027128113716
+    second: downwardattacksplash_4
+  - first:
+      213: 5309648617861720713
+    second: downwardattacksplash_5
+  - first:
+      213: -1470534424076403426
+    second: downwardattacksplash_6
+  - first:
+      213: 5477877566958258132
+    second: downwardattacksplash_7
+  - first:
+      213: -6061589465099655201
+    second: downwardattacksplash_8
+  - first:
+      213: -8833215856318986205
+    second: downwardattacksplash_9
+  - first:
+      213: 3774206155909122147
+    second: downwardattacksplash_10
+  - first:
+      213: -4903067468063720311
+    second: downwardattacksplash_11
+  - first:
+      213: -3264196120159336253
+    second: downwardattacksplash_12
+  - first:
+      213: -3122019717056626160
+    second: downwardattacksplash_13
+  - first:
+      213: -2621403792613724666
+    second: downwardattacksplash_14
+  - first:
+      213: 7861787671531060569
+    second: downwardattacksplash_15
+  - first:
+      213: -1812884553012869283
+    second: downwardattacksplash_16
+  - first:
+      213: 5671008006958388868
+    second: downwardattacksplash_17
+  - first:
+      213: 2554309054977574395
+    second: downwardattacksplash_18
+  - first:
+      213: -73429681416167011
+    second: downwardattacksplash_19
+  - first:
+      213: -1115387626803157307
+    second: downwardattacksplash_20
+  - first:
+      213: -2189060504085451634
+    second: downwardattacksplash_21
+  - first:
+      213: -9028523522673206363
+    second: downwardattacksplash_22
+  - first:
+      213: 1298985073256995160
+    second: downwardattacksplash_23
+  - first:
+      213: -8231152834996888625
+    second: downwardattacksplash_24
+  - first:
+      213: -1655571110140857544
+    second: downwardattacksplash_25
+  - first:
+      213: 6644648962925541873
+    second: downwardattacksplash_26
+  - first:
+      213: -8820027385872329607
+    second: downwardattacksplash_27
+  - first:
+      213: -765284614574933030
+    second: downwardattacksplash_28
+  - first:
+      213: 6568493961262543728
+    second: downwardattacksplash_29
+  - first:
+      213: 2616947359934546443
+    second: downwardattacksplash_30
+  - first:
+      213: 7886869985625674673
+    second: downwardattacksplash_31
+  - first:
+      213: 7662068728661893334
+    second: downwardattacksplash_32
+  - first:
+      213: 5659222910709842010
+    second: downwardattacksplash_33
+  - first:
+      213: -2048172139082778410
+    second: downwardattacksplash_34
+  - first:
+      213: -7023567639678639451
+    second: downwardattacksplash_35
+  - first:
+      213: -5292930957994195134
+    second: downwardattacksplash_36
+  - first:
+      213: 5867585256011635223
+    second: downwardattacksplash_37
+  - first:
+      213: -6288981255117449851
+    second: downwardattacksplash_38
+  - first:
+      213: 3805591989819590738
+    second: downwardattacksplash_39
+  - first:
+      213: -4614286704346709721
+    second: downwardattacksplash_40
+  - first:
+      213: 7893487093630899856
+    second: downwardattacksplash_41
+  - first:
+      213: 7974252238298936363
+    second: downwardattacksplash_42
+  - first:
+      213: -5800413723433641829
+    second: downwardattacksplash_43
+  - first:
+      213: -4150708943868335998
+    second: downwardattacksplash_44
+  - first:
+      213: -1360513448487114078
+    second: downwardattacksplash_45
+  - first:
+      213: -4594977663961516085
+    second: downwardattacksplash_46
+  - first:
+      213: -2046712468694871173
+    second: downwardattacksplash_47
+  - first:
+      213: -4590123065413518707
+    second: downwardattacksplash_48
+  - first:
+      213: -6967284880300597424
+    second: downwardattacksplash_49
+  - first:
+      213: 7495102702319914691
+    second: downwardattacksplash_50
+  - first:
+      213: 3313714936956729572
+    second: downwardattacksplash_51
+  - first:
+      213: -8968458780685397435
+    second: downwardattacksplash_52
+  - first:
+      213: 8806637476591754291
+    second: downwardattacksplash_53
+  - first:
+      213: -171185473689931755
+    second: downwardattacksplash_54
+  - first:
+      213: -4560624121153893500
+    second: downwardattacksplash_55
+  - first:
+      213: 7785682399581397330
+    second: downwardattacksplash_56
+  - first:
+      213: -2353162439908888473
+    second: downwardattacksplash_57
+  - first:
+      213: 8985283566822917794
+    second: downwardattacksplash_58
+  - first:
+      213: 4244093131202510024
+    second: downwardattacksplash_59
+  - first:
+      213: -1840326821916495519
+    second: downwardattacksplash_60
+  - first:
+      213: -4010013637697750422
+    second: downwardattacksplash_61
+  - first:
+      213: -2625402437286580525
+    second: downwardattacksplash_62
+  - first:
+      213: -755725028383020558
+    second: downwardattacksplash_63
+  - first:
+      213: 1697519931590981722
+    second: downwardattacksplash_64
+  - first:
+      213: -5317624805790428831
+    second: downwardattacksplash_65
+  - first:
+      213: 2194218449011701656
+    second: downwardattacksplash_66
+  - first:
+      213: 7394274907687204310
+    second: downwardattacksplash_67
+  - first:
+      213: -7084191444803493818
+    second: downwardattacksplash_68
+  - first:
+      213: 4345170029751036956
+    second: downwardattacksplash_69
+  - first:
+      213: -4304031796890983160
+    second: downwardattacksplash_70
+  - first:
+      213: -2775520404064147691
+    second: downwardattacksplash_71
+  - first:
+      213: 6635966661889075496
+    second: downwardattacksplash_72
+  - first:
+      213: -1497111292156432201
+    second: downwardattacksplash_73
+  - first:
+      213: -7375211883846192310
+    second: downwardattacksplash_74
+  - first:
+      213: 4944689631835861646
+    second: downwardattacksplash_75
+  - first:
+      213: 8086773024927381530
+    second: downwardattacksplash_76
+  - first:
+      213: -6304224049793828129
+    second: downwardattacksplash_77
+  - first:
+      213: 325795879605974633
+    second: downwardattacksplash_78
+  - first:
+      213: -6147564986177165052
+    second: downwardattacksplash_79
+  - first:
+      213: -817258017370685389
+    second: downwardattacksplash_80
+  - first:
+      213: 295145851784516604
+    second: downwardattacksplash_81
+  - first:
+      213: -765083573462249629
+    second: downwardattacksplash_82
+  - first:
+      213: 5399183051780365204
+    second: downwardattacksplash_83
+  - first:
+      213: -1841693914435375164
+    second: downwardattacksplash_84
+  - first:
+      213: -1436196905392446873
+    second: downwardattacksplash_85
+  - first:
+      213: 868506458978641782
+    second: downwardattacksplash_86
+  - first:
+      213: 2764147994259191099
+    second: downwardattacksplash_87
+  - first:
+      213: 6319280878316709
+    second: downwardattacksplash_88
+  - first:
+      213: -8492290278743566618
+    second: downwardattacksplash_89
+  - first:
+      213: -7196620836128593590
+    second: downwardattacksplash_90
+  - first:
+      213: -6465173813495513709
+    second: downwardattacksplash_91
+  - first:
+      213: 3688595812259453500
+    second: downwardattacksplash_92
+  - first:
+      213: 6016916115008247815
+    second: downwardattacksplash_93
+  - first:
+      213: -1294651295482190490
+    second: downwardattacksplash_94
+  - first:
+      213: -3544202708957330682
+    second: downwardattacksplash_95
+  - first:
+      213: -2679480805546309776
+    second: downwardattacksplash_96
+  - first:
+      213: 9209131630858771696
+    second: downwardattacksplash_97
+  - first:
+      213: 7636378085382552535
+    second: downwardattacksplash_98
+  - first:
+      213: -7941471031575754376
+    second: downwardattacksplash_99
+  - first:
+      213: 6831943070217409146
+    second: downwardattacksplash_100
+  - first:
+      213: -8712433364470993204
+    second: downwardattacksplash_101
+  - first:
+      213: 7088457062227851512
+    second: downwardattacksplash_102
+  - first:
+      213: -4382714541951910957
+    second: downwardattacksplash_103
+  - first:
+      213: 6496451511957576356
+    second: downwardattacksplash_104
+  - first:
+      213: -4254986572299437904
+    second: downwardattacksplash_105
+  - first:
+      213: -1977545079461511701
+    second: downwardattacksplash_106
+  - first:
+      213: -6537302468924721949
+    second: downwardattacksplash_107
+  - first:
+      213: 1994781038077194205
+    second: downwardattacksplash_108
+  - first:
+      213: 8365310797782331633
+    second: downwardattacksplash_109
+  - first:
+      213: 35198563861948922
+    second: downwardattacksplash_110
+  - first:
+      213: -7234322226613397081
+    second: downwardattacksplash_111
+  - first:
+      213: -3814339315805697253
+    second: downwardattacksplash_112
+  - first:
+      213: 2298541414041786797
+    second: downwardattacksplash_113
+  - first:
+      213: 6525258506529465246
+    second: downwardattacksplash_114
+  - first:
+      213: -4532523877024219255
+    second: downwardattacksplash_115
+  - first:
+      213: 1330652224214503235
+    second: downwardattacksplash_116
+  - first:
+      213: -3851372045492189680
+    second: downwardattacksplash_117
+  - first:
+      213: 6817572373638512349
+    second: downwardattacksplash_118
+  - first:
+      213: 251849300169707465
+    second: downwardattacksplash_119
+  - first:
+      213: 4131181975725255181
+    second: downwardattacksplash_120
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: downwardattacksplash_0
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1152
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 645914aaf4650afe0800000000000000
+      internalID: -1179848202212240058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_1
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1152
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8fc958c57a6aa150800000000000000
+      internalID: 5884632917218021259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_2
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 1148
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c19a60814768b6590800000000000000
+      internalID: -7679896906372830948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_3
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1116
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35bbf7abdb70d6dc0800000000000000
+      internalID: -3644248012013716653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_4
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 1068
+        width: 28
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc5f2c648755d2cf0800000000000000
+      internalID: -275470027128113716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_5
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1076
+        width: 24
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98aaac54949afa940800000000000000
+      internalID: 5309648617861720713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_6
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 1132
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1d31f68bbc979be0800000000000000
+      internalID: -1470534424076403426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_7
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 1122
+        width: 10
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d7c0a5cf94550c40800000000000000
+      internalID: 5477877566958258132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_8
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 1100
+        width: 8
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd72c764f78e0eba0800000000000000
+      internalID: -6061589465099655201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_9
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 1110
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32842c3aafc1a6580800000000000000
+      internalID: -8833215856318986205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_10
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1116
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3684e00908ca06430800000000000000
+      internalID: 3774206155909122147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_11
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1106
+        width: 8
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98cb9488d1ec4fbb0800000000000000
+      internalID: -4903067468063720311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_12
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 1112
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c8c1b45cee33b2d0800000000000000
+      internalID: -3264196120159336253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_13
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 1108
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0120317cb9b5ca4d0800000000000000
+      internalID: -3122019717056626160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_14
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 1090
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60ea560b327ee9bd0800000000000000
+      internalID: -2621403792613724666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_15
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 1070
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95d7725db3eaa1d60800000000000000
+      internalID: 7861787671531060569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_16
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 1086
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5700e6aa1757d6e0800000000000000
+      internalID: -1812884553012869283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_17
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1068
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 486962d6cb773be40800000000000000
+      internalID: 5671008006958388868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_18
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 1070
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf5808c5d8ab27320800000000000000
+      internalID: 2554309054977574395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_19
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 876
+        width: 28
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d91283308102bfef0800000000000000
+      internalID: -73429681416167011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_20
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 876
+        width: 28
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c6288decd85580f0800000000000000
+      internalID: -1115387626803157307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_21
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 916
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c2626d115ee91e0800000000000000
+      internalID: -2189060504085451634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_22
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 876
+        width: 30
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ab1ec8f0bd34b280800000000000000
+      internalID: -9028523522673206363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_23
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 932
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8599404ba0ce60210800000000000000
+      internalID: 1298985073256995160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_24
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 914
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcb9f0a6b1215cd80800000000000000
+      internalID: -8231152834996888625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_25
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 876
+        width: 34
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 833b7afc8da3609e0800000000000000
+      internalID: -1655571110140857544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_26
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 934
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f93854e609863c50800000000000000
+      internalID: 6644648962925541873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_27
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 914
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 974dcd3b2d7f89580800000000000000
+      internalID: -8820027385872329607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_28
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 876
+        width: 38
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adb703c92b92165f0800000000000000
+      internalID: -765284614574933030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_29
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 910
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0733a56d47af72b50800000000000000
+      internalID: 6568493961262543728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_30
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 910
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b028bc832c3415420800000000000000
+      internalID: 2616947359934546443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_31
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 726
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b398ea277ac37d60800000000000000
+      internalID: 7886869985625674673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_32
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 684
+        width: 26
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d06580d9e2255a60800000000000000
+      internalID: 7662068728661893334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_33
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 726
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a50cc91e049998e40800000000000000
+      internalID: 5659222910709842010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_34
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 684
+        width: 26
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d87e1b8a4e6393e0800000000000000
+      internalID: -2048172139082778410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_35
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 726
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a2a605b176478e90800000000000000
+      internalID: -7023567639678639451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_36
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 684
+        width: 30
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 247861c365bbb86b0800000000000000
+      internalID: -5292930957994195134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_37
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 726
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71a94e9d3b9dd6150800000000000000
+      internalID: 5867585256011635223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_38
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 684
+        width: 36
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58552a17edc09b8a0800000000000000
+      internalID: -6288981255117449851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_39
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 726
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 258c44970cd20d430800000000000000
+      internalID: 3805591989819590738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_40
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 684
+        width: 57
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7214b9f90b2c6ffb0800000000000000
+      internalID: -4614286704346709721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_41
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 492
+        width: 92
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 096100fa0bc4b8d60800000000000000
+      internalID: 7893487093630899856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_42
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 492
+        width: 96
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b24fb2d492c3aae60800000000000000
+      internalID: 7974252238298936363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_43
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 492
+        width: 102
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b98df60537ac08fa0800000000000000
+      internalID: -5800413723433641829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_44
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 588
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 288e0baf438b566c0800000000000000
+      internalID: -4150708943868335998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_45
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 486
+        width: 106
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aaa8c61a3c7e1de0800000000000000
+      internalID: -1360513448487114078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_46
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 492
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc738bce82c5b30c0800000000000000
+      internalID: -4594977663961516085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_47
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 566
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b73541a8add9893e0800000000000000
+      internalID: -2046712468694871173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_48
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 534
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8a33ba346b9c40c0800000000000000
+      internalID: -4590123065413518707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_49
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 534
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05f9bbcc05b3f4f90800000000000000
+      internalID: -6967284880300597424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_50
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 534
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ce49de6234f30860800000000000000
+      internalID: 7495102702319914691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_51
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 534
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e83638ad2eacfd20800000000000000
+      internalID: 3313714936956729572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_52
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 534
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54293828142a98380800000000000000
+      internalID: -8968458780685397435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_53
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 542
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33cd4e91026773a70800000000000000
+      internalID: 8806637476591754291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_54
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 514
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 510310af7b3df9df0800000000000000
+      internalID: -171185473689931755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_55
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 488
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48b4b88668865b0c0800000000000000
+      internalID: -4560624121153893500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_56
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 486
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2516f0164ec4c0c60800000000000000
+      internalID: 7785682399581397330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_57
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 322
+        width: 90
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 760707e7a33e75fd0800000000000000
+      internalID: -2353162439908888473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_58
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 300
+        width: 116
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a682a64cc322bc70800000000000000
+      internalID: 8985283566822917794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_59
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 402
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cc3007773c06ea30800000000000000
+      internalID: 4244093131202510024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_60
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 394
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1613b058188d576e0800000000000000
+      internalID: -1840326821916495519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_61
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 398
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6abd8ca7d19958c0800000000000000
+      internalID: -4010013637697750422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_62
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 394
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dea61da462b09bd0800000000000000
+      internalID: -2625402437286580525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_63
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 300
+        width: 36
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f9ab5737102385f0800000000000000
+      internalID: -755725028383020558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_64
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 300
+        width: 38
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5830a9426dce8710800000000000000
+      internalID: 1697519931590981722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_65
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 388
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1615e02c9600436b0800000000000000
+      internalID: -5317624805790428831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_66
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 300
+        width: 26
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89773fccd0e637e10800000000000000
+      internalID: 2194218449011701656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_67
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 390
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d5b74c1addbd9660800000000000000
+      internalID: 7394274907687204310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_68
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 384
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64060a32a65efad90800000000000000
+      internalID: -7084191444803493818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_69
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 300
+        width: 56
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1cebffce152d4c30800000000000000
+      internalID: 4345170029751036956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_70
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 388
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 805a35c62e10544c0800000000000000
+      internalID: -4304031796890983160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_71
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 376
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51768e8d5ee5b79d0800000000000000
+      internalID: -2775520404064147691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_72
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 380
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 829ab372580b71c50800000000000000
+      internalID: 6635966661889075496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_73
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 362
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b03ac93631393be0800000000000000
+      internalID: -1497111292156432201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_74
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 320
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a43bb100edbf5a990800000000000000
+      internalID: -7375211883846192310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_75
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 374
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e823226a5011f9440800000000000000
+      internalID: 4944689631835861646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_76
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 366
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a18f10a783df93070800000000000000
+      internalID: 8086773024927381530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_77
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 322
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fda709fb0a5e288a0800000000000000
+      internalID: -6304224049793828129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_78
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 366
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 966333950a5758400800000000000000
+      internalID: 325795879605974633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_79
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 354
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 409e74d57367faaa0800000000000000
+      internalID: -6147564986177165052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_80
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 352
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 330c7c8c92488a4f0800000000000000
+      internalID: -817258017370685389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_81
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 358
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf3db84a691981400800000000000000
+      internalID: 295145851784516604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_82
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 348
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36fcb442b80e165f0800000000000000
+      internalID: -765083573462249629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_83
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 354
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b9da62160cdea40800000000000000
+      internalID: 5399183051780365204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_84
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 344
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cfa41d742df076e0800000000000000
+      internalID: -1841693914435375164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_85
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 352
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 762619a168a911ce0800000000000000
+      internalID: -1436196905392446873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_86
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 332
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 677ed8cd50e8d0c00800000000000000
+      internalID: 868506458978641782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_87
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 342
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b357d68a4f93c5620800000000000000
+      internalID: 2764147994259191099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_88
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 342
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5acecfb3a53761000800000000000000
+      internalID: 6319280878316709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_89
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 342
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e69cfd4cf2552a80800000000000000
+      internalID: -8492290278743566618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_90
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 332
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4961679a77702c90800000000000000
+      internalID: -7196620836128593590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_91
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 334
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39d317baba61746a0800000000000000
+      internalID: -6465173813495513709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_92
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 342
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3ad7b52956803330800000000000000
+      internalID: 3688595812259453500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_93
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 332
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 708d36ed351608350800000000000000
+      internalID: 6016916115008247815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_94
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 342
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 665e8c09189780ee0800000000000000
+      internalID: -1294651295482190490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_95
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 320
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6030f980a6670dec0800000000000000
+      internalID: -3544202708957330682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_96
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 320
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0774fe2676290dad0800000000000000
+      internalID: -2679480805546309776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_97
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 330
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fc962b1d686dcf70800000000000000
+      internalID: 9209131630858771696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_98
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 332
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dbfdcdc86dd9f960800000000000000
+      internalID: 7636378085382552535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_99
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 324
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8794fd82c2a3ac190800000000000000
+      internalID: -7941471031575754376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_100
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 332
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7210027600ffce50800000000000000
+      internalID: 6831943070217409146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_101
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 320
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccee175f308371780800000000000000
+      internalID: -8712433364470993204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_102
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 318
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f833bf44224f5260800000000000000
+      internalID: 7088457062227851512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_103
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 316
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3db740f38587d23c0800000000000000
+      internalID: -4382714541951910957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_104
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 312
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aad7cefa38082a50800000000000000
+      internalID: 6496451511957576356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_105
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 306
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b8f802a14043f4c0800000000000000
+      internalID: -4254986572299437904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_106
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 312
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bedff5b4a395e84e0800000000000000
+      internalID: -1977545079461511701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_107
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 298
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e435766a06d645a0800000000000000
+      internalID: -6537302468924721949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_108
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 304
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddfa64b09c2eeab10800000000000000
+      internalID: 1994781038077194205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_109
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 288
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f03e8969dd871470800000000000000
+      internalID: 8365310797782331633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_110
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 108
+        width: 26
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af9689748ec0d7000800000000000000
+      internalID: 35198563861948922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_111
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 184
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a9def393468a9b90800000000000000
+      internalID: -7234322226613397081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_112
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 156
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1b489cf99eb01bc0800000000000000
+      internalID: -3814339315805697253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_113
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 108
+        width: 26
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da91c75ec3f06ef10800000000000000
+      internalID: 2298541414041786797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_114
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 176
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e93e8451a006e8a50800000000000000
+      internalID: 6525258506529465246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_115
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 150
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98fbef55c8d3911c0800000000000000
+      internalID: -4532523877024219255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_116
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 142
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34f83e7d52d677210800000000000000
+      internalID: 1330652224214503235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_117
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 150
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0168192b78d2d8ac0800000000000000
+      internalID: -3851372045492189680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_118
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 138
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dde7d39e3f1ec9e50800000000000000
+      internalID: 6817572373638512349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_119
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 126
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cfcb89aa9fbe7300800000000000000
+      internalID: 251849300169707465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downwardattacksplash_120
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 122
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0aa9957e18e45930800000000000000
+      internalID: 4131181975725255181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      downwardattacksplash_0: -1179848202212240058
+      downwardattacksplash_1: 5884632917218021259
+      downwardattacksplash_10: 3774206155909122147
+      downwardattacksplash_100: 6831943070217409146
+      downwardattacksplash_101: -8712433364470993204
+      downwardattacksplash_102: 7088457062227851512
+      downwardattacksplash_103: -4382714541951910957
+      downwardattacksplash_104: 6496451511957576356
+      downwardattacksplash_105: -4254986572299437904
+      downwardattacksplash_106: -1977545079461511701
+      downwardattacksplash_107: -6537302468924721949
+      downwardattacksplash_108: 1994781038077194205
+      downwardattacksplash_109: 8365310797782331633
+      downwardattacksplash_11: -4903067468063720311
+      downwardattacksplash_110: 35198563861948922
+      downwardattacksplash_111: -7234322226613397081
+      downwardattacksplash_112: -3814339315805697253
+      downwardattacksplash_113: 2298541414041786797
+      downwardattacksplash_114: 6525258506529465246
+      downwardattacksplash_115: -4532523877024219255
+      downwardattacksplash_116: 1330652224214503235
+      downwardattacksplash_117: -3851372045492189680
+      downwardattacksplash_118: 6817572373638512349
+      downwardattacksplash_119: 251849300169707465
+      downwardattacksplash_12: -3264196120159336253
+      downwardattacksplash_120: 4131181975725255181
+      downwardattacksplash_13: -3122019717056626160
+      downwardattacksplash_14: -2621403792613724666
+      downwardattacksplash_15: 7861787671531060569
+      downwardattacksplash_16: -1812884553012869283
+      downwardattacksplash_17: 5671008006958388868
+      downwardattacksplash_18: 2554309054977574395
+      downwardattacksplash_19: -73429681416167011
+      downwardattacksplash_2: -7679896906372830948
+      downwardattacksplash_20: -1115387626803157307
+      downwardattacksplash_21: -2189060504085451634
+      downwardattacksplash_22: -9028523522673206363
+      downwardattacksplash_23: 1298985073256995160
+      downwardattacksplash_24: -8231152834996888625
+      downwardattacksplash_25: -1655571110140857544
+      downwardattacksplash_26: 6644648962925541873
+      downwardattacksplash_27: -8820027385872329607
+      downwardattacksplash_28: -765284614574933030
+      downwardattacksplash_29: 6568493961262543728
+      downwardattacksplash_3: -3644248012013716653
+      downwardattacksplash_30: 2616947359934546443
+      downwardattacksplash_31: 7886869985625674673
+      downwardattacksplash_32: 7662068728661893334
+      downwardattacksplash_33: 5659222910709842010
+      downwardattacksplash_34: -2048172139082778410
+      downwardattacksplash_35: -7023567639678639451
+      downwardattacksplash_36: -5292930957994195134
+      downwardattacksplash_37: 5867585256011635223
+      downwardattacksplash_38: -6288981255117449851
+      downwardattacksplash_39: 3805591989819590738
+      downwardattacksplash_4: -275470027128113716
+      downwardattacksplash_40: -4614286704346709721
+      downwardattacksplash_41: 7893487093630899856
+      downwardattacksplash_42: 7974252238298936363
+      downwardattacksplash_43: -5800413723433641829
+      downwardattacksplash_44: -4150708943868335998
+      downwardattacksplash_45: -1360513448487114078
+      downwardattacksplash_46: -4594977663961516085
+      downwardattacksplash_47: -2046712468694871173
+      downwardattacksplash_48: -4590123065413518707
+      downwardattacksplash_49: -6967284880300597424
+      downwardattacksplash_5: 5309648617861720713
+      downwardattacksplash_50: 7495102702319914691
+      downwardattacksplash_51: 3313714936956729572
+      downwardattacksplash_52: -8968458780685397435
+      downwardattacksplash_53: 8806637476591754291
+      downwardattacksplash_54: -171185473689931755
+      downwardattacksplash_55: -4560624121153893500
+      downwardattacksplash_56: 7785682399581397330
+      downwardattacksplash_57: -2353162439908888473
+      downwardattacksplash_58: 8985283566822917794
+      downwardattacksplash_59: 4244093131202510024
+      downwardattacksplash_6: -1470534424076403426
+      downwardattacksplash_60: -1840326821916495519
+      downwardattacksplash_61: -4010013637697750422
+      downwardattacksplash_62: -2625402437286580525
+      downwardattacksplash_63: -755725028383020558
+      downwardattacksplash_64: 1697519931590981722
+      downwardattacksplash_65: -5317624805790428831
+      downwardattacksplash_66: 2194218449011701656
+      downwardattacksplash_67: 7394274907687204310
+      downwardattacksplash_68: -7084191444803493818
+      downwardattacksplash_69: 4345170029751036956
+      downwardattacksplash_7: 5477877566958258132
+      downwardattacksplash_70: -4304031796890983160
+      downwardattacksplash_71: -2775520404064147691
+      downwardattacksplash_72: 6635966661889075496
+      downwardattacksplash_73: -1497111292156432201
+      downwardattacksplash_74: -7375211883846192310
+      downwardattacksplash_75: 4944689631835861646
+      downwardattacksplash_76: 8086773024927381530
+      downwardattacksplash_77: -6304224049793828129
+      downwardattacksplash_78: 325795879605974633
+      downwardattacksplash_79: -6147564986177165052
+      downwardattacksplash_8: -6061589465099655201
+      downwardattacksplash_80: -817258017370685389
+      downwardattacksplash_81: 295145851784516604
+      downwardattacksplash_82: -765083573462249629
+      downwardattacksplash_83: 5399183051780365204
+      downwardattacksplash_84: -1841693914435375164
+      downwardattacksplash_85: -1436196905392446873
+      downwardattacksplash_86: 868506458978641782
+      downwardattacksplash_87: 2764147994259191099
+      downwardattacksplash_88: 6319280878316709
+      downwardattacksplash_89: -8492290278743566618
+      downwardattacksplash_9: -8833215856318986205
+      downwardattacksplash_90: -7196620836128593590
+      downwardattacksplash_91: -6465173813495513709
+      downwardattacksplash_92: 3688595812259453500
+      downwardattacksplash_93: 6016916115008247815
+      downwardattacksplash_94: -1294651295482190490
+      downwardattacksplash_95: -3544202708957330682
+      downwardattacksplash_96: -2679480805546309776
+      downwardattacksplash_97: 9209131630858771696
+      downwardattacksplash_98: 7636378085382552535
+      downwardattacksplash_99: -7941471031575754376
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
