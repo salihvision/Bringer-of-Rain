@@ -1,23 +1,42 @@
-BRINGER OF RAIN:
+# Bringer of Rain
+
 A Hollow Knight-inspired 2D Unity action-platformer set in a drought-stricken desert aqueduct. Developed during the OTGET Game Jam 3 (April 24-26, 2026) at Manisa Celal Bayar University.
 
-THE STORY:
-The village wells are dry. A fire demon has taken the water below the aqueduct. You must progress through sealed wells, brave the flooded vault, restore the ancient valves, and defeat the demon to bring the rain back to the village.
+## Gameplay Video
 
-KEY FEATURES:
-Mechanics: Normal attacks (LMB/water whip), projectile throwing that consumes 1 mana (RMB/ice spear), downward pogo attacks (LMB+S while airborne/water burst), platforming (SPACE/jump), and health(6) / mana (3/restore 1 mana by attacking 3 times).
+Watch the 2-minute gameplay demo: [Bringer of Rain Gameplay Demo](https://drive.google.com/file/d/1y1TwvweTThtAiSeVNvhSjQySl2N-HlBy/view?usp=sharing)
 
-Platforming: Navigate treacherous terrain, spikes, and broken spillways to reach the deepest parts of the reservoir.
+## Features
 
-Lore: Uncover the story and your objectives through dialogue with the Village Elder and ancient signs scattered throughout the level.
+- Runtime-built 2D platforming level with three chapter-style areas
+- Story prompts, readable signs, and a village elder NPC
+- Water-themed player abilities, mana, projectiles, enemies, hazards, and checkpoints
+- Desert tiles, villager sprites, full-screen story panels, rain effects, and a trophy moment
+- 2-phase Boss fight
 
-Boss Encounter: Face off against the Bringer of Rain's enemy—the Fire Demon—in a final showdown.
+## Controls
 
-DEVELOPMENT DETAILS:
-Engine: Unity 6.0
+- Move: `A/D` or arrow keys
+- Jump: `Space`
+- Read/interact: `W`
+- Water whip: `LMB` / enter / `F`
+- Burst: `S+LMB`
+- Ice shard: `RMB` (Costs 1 mana. Water whip or Burst 3 times.)
 
-Language: C#
+## Setup
 
-Event: OTGET Game Jam 3
+This project uses Unity `6000.4.3f1`.
 
-<img width="467" height="621" alt="image" src="https://github.com/user-attachments/assets/c7a9c32b-9e41-4438-be2e-3eb14390bfd7" />
+1. Clone the repository.
+2. Open the project folder in Unity Hub.
+3. Use Unity `6000.4.3f1` or a compatible Unity 6 version.
+4. Open `SampleScene`.
+5. Press Play.
+
+## Project Notes
+
+The level is constructed mostly through runtime scripts instead of a hand-authored tilemap scene. Most gameplay setup lives in `Assets/Scripts/DesertAqueductBootstrap.cs`, with supporting scripts for player movement, combat, enemies, story UI, audio, and progression.
+
+## Credits
+
+Created as a game jam project. Development included gameplay programming, level scripting, story integration, UI polish, and asset integration.
