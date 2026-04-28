@@ -40,3 +40,5 @@ The level is constructed mostly through runtime scripts instead of a hand-author
 ## Credits
 
 Created as a game jam project. Development included gameplay programming, level scripting, story integration, UI polish, and asset integration.
+
+<img width="467" height="621" alt="image" src="https://github.com/user-attachments/assets/8be1f35f-9b27-424f-8f78-d536f616dd57" />
