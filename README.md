@@ -4,7 +4,7 @@ A Hollow Knight-inspired 2D Unity action-platformer set in a drought-stricken de
 
 ## Gameplay Video
 
-Watch the 2-minute gameplay demo: [Bringer of Rain Gameplay Demo](https://drive.google.com/file/d/1y1TwvweTThtAiSeVNvhSjQySl2N-HlBy/view?usp=sharing)
+Watch the 2-minute gameplay demo: [Bringer of Rain Gameplay Demo]([https://drive.google.com/file/d/1y1TwvweTThtAiSeVNvhSjQySl2N-HlBy/view?usp=sharing](https://drive.google.com/file/d/1USW1btTMLG_FkzW6rCvr6yqav7gatOtD/view?usp=drive_link))
 
 ## Features
 
